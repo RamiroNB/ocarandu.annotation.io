@@ -33,7 +33,8 @@ Quem anota não sabe de qual versão veio cada opinião, e isso é de propósito
 ## Como funciona
 
 1. Escreva seu nome e escolha o seu conjunto. São quatro conjuntos de 100
-   itens, um por pessoa do grupo. Vinte itens aparecem em todos os conjuntos,
+   itens, um por pessoa do grupo: conjuntos 1 e 2 com o Llama-3.1-8B,
+   3 e 4 com o Qwen3-4B. Vinte itens aparecem em todos os conjuntos,
    para medirmos a concordância entre anotadores, e alguns itens vêm de outros
    sistemas, para comparação.
 2. Responda item a item. Teclas 1, 2 e 3 escolhem a resposta; F marca problema
