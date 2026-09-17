@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anotação Ocarandu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 id="title">Ocarandu · anotação de fidelidade</h1>
+  <div id="progress" class="muted"></div>
+</header>
+
+<main>
+  <!-- Tela 1: início -->
+  <section id="screen-start" class="card">
+    <h2>Antes de começar</h2>
+    <p>Cada item mostra <b>uma opinião</b> que um sistema automático atribuiu a um participante de uma audiência pública da Câmara, e os <b>trechos do que essa pessoa realmente disse</b> na audiência que mais se parecem com a opinião. Sua tarefa é dizer se a opinião é <b>sustentada</b> por esses trechos.</p>
+    <ul>
+      <li><b>Sustentada</b>: os trechos confirmam o que a opinião afirma, ainda que com outras palavras.</li>
+      <li><b>Não sustentada</b>: a opinião afirma algo que não está nos trechos, contradiz os trechos, ou distorce o que foi dito (inclusive números, posições ou intensidade inventados).</li>
+      <li><b>Não dá para dizer</b>: os trechos não tratam do assunto da opinião; não há como confirmar nem negar.</li>
+    </ul>
+    <p>Julgue <b>somente pelos trechos</b>, não pelo que você sabe do tema. Não há resposta certa esperada: os itens vêm de várias configurações misturadas. Você pode parar e voltar depois no mesmo navegador; o progresso fica salvo.</p>
+    <label>Seu nome ou iniciais<br><input id="annotator" type="text" placeholder="ex.: RB" autocomplete="off"></label>
+    <label>Conjunto<br><select id="model"></select></label>
+    <label class="inline"><input id="highlight" type="checkbox"> destacar palavras em comum entre opinião e trechos (ajuda a achar, mas não decide)</label>
+    <div class="row">
+      <button id="btn-start" class="primary">Começar / continuar</button>
+      <button id="btn-export-start" class="ghost">Baixar CSV do que já anotei</button>
+    </div>
+    <p class="muted small">Atalhos: <kbd>1</kbd> sustentada · <kbd>2</kbd> não sustentada · <kbd>3</kbd> não dá para dizer · <kbd>F</kbd> problema de forma · <kbd>←</kbd>/<kbd>→</kbd> navegar.</p>
+  </section>
+
+  <!-- Tela 2: item -->
+  <section id="screen-item" class="card hidden">
+    <div class="who"><span id="participant"></span> <span id="cargo" class="muted"></span></div>
+    <div class="opinion-box">
+      <div class="label">Opinião atribuída a essa pessoa</div>
+      <p id="opinion"></p>
+    </div>
+    <div class="label">Trechos do que essa pessoa disse na audiência <span id="nwin" class="muted"></span></div>
+    <div id="windows"></div>
+
+    <div class="answers">
+      <button data-support="sustentada" class="ans">1 · Sustentada</button>
+      <button data-support="nao_sustentada" class="ans">2 · Não sustentada</button>
+      <button data-support="nao_da_para_dizer" class="ans">3 · Não dá para dizer</button>
+    </div>
+    <label class="inline"><input id="form-issue" type="checkbox"> <kbd>F</kbd> problema de forma: está em 1ª pessoa, copia literalmente a fala, ou não é uma opinião</label>
+    <textarea id="comment" rows="2" placeholder="comentário opcional"></textarea>
+    <div class="row">
+      <button id="btn-prev" class="ghost">← Anterior</button>
+      <span id="saved" class="muted small"></span>
+      <button id="btn-next" class="primary">Próximo →</button>
+    </div>
+    <div class="row small muted">
+      <button id="btn-export" class="ghost small">Baixar CSV parcial</button>
+      <button id="btn-home" class="ghost small">Voltar ao início</button>
+    </div>
+  </section>
+
+  <!-- Tela 3: fim -->
+  <section id="screen-done" class="card hidden">
+    <h2>Terminou. Obrigado!</h2>
+    <p id="done-summary"></p>
+    <ol>
+      <li>Clique em <b>Baixar CSV</b> e guarde o arquivo.</li>
+      <li>Clique em <b>Enviar por e-mail</b>: abre seu e-mail com destinatário e assunto prontos. <b>Anexe o CSV baixado</b> e envie.</li>
+    </ol>
+    <div class="row">
+      <button id="btn-download-final" class="primary">Baixar CSV</button>
+      <a id="btn-mail" class="button">Enviar por e-mail</a>
+      <button id="btn-copy" class="ghost">Copiar CSV</button>
+    </div>
+    <p id="submit-status" class="muted small"></p>
+    <p class="muted small">Faltou algum item? <button id="btn-review" class="ghost small">Revisar itens sem resposta</button></p>
+  </section>
+</main>
+
+<footer class="muted small">Dados: PublicHearingBR (unicamp-dl), transcrições públicas da Câmara dos Deputados. As opiniões exibidas foram geradas por modelos de linguagem e podem estar erradas; é isso que estamos medindo.</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
