@@ -1,52 +1,52 @@
-# Página de anotação (GitHub Pages)
+# Anotação de fidelidade — Ocarandu
 
-Site estático: um item por vez, respostas salvas no navegador, CSV no final.
-Sem servidor, sem chave no site. A pasta inteira é publicável.
+Página para anotar, uma opinião por vez, se um resumo automático de audiência
+pública da Câmara dos Deputados é fiel ao que o participante realmente disse.
 
-## O que tem aqui
-- `index.html`, `app.js`, `style.css` — a página.
-- `config.js` — **edite**: `EMAIL_TO` (quem recebe o CSV) e, opcional, `SUBMIT_URL`.
-- `data/items.json` — itens públicos: id opaco, participante, cargo, opinião, os 3
-  trechos mais parecidos da fala dessa pessoa. **Não contém a condição** (baseline
-  ou steered). Gerado por `scripts/build_annotation_web_items.py`.
-- A chave `id → condição` fica em `data/publichearingbr/annotation/web/key.csv`
-  (gitignorado). Nunca copie para esta pasta.
+Site: https://ramironb.github.io/ocarandu.annotation.io/
 
-## Publicar
-1. Crie um repositório público (ex.: `ocarandu-anotacao`) e copie o conteúdo desta
-   pasta para a raiz dele (ou para `docs/`).
-2. Settings → Pages → Source: *Deploy from a branch* → `main` / `/ (root)` (ou `/docs`).
-3. A URL sai como `https://<usuario>.github.io/ocarandu-anotacao/`. Testar local:
-   `python -m http.server 8000` dentro da pasta e abrir `http://localhost:8000`.
+## O que está sendo anotado
 
-## Como as respostas chegam
-GitHub Pages não envia e-mail. Duas rotas, a primeira sempre funciona:
-1. **CSV + e-mail** (padrão): no fim, a página baixa o CSV e abre o e-mail do
-   anotador com destinatário e assunto prontos; ele anexa o arquivo e envia.
-2. **Envio automático** (opcional): defina `SUBMIT_URL` com um Web App do Google
-   Apps Script (grátis, sem limite prático), que grava numa planilha e manda o
-   e-mail. Código do Apps Script (Publicar → Implantar como app da web → acesso
-   "Qualquer pessoa"):
+Pegamos transcrições de audiências públicas (dataset PublicHearingBR) e pedimos
+a modelos de linguagem abertos que listassem as opiniões de cada participante a
+partir das falas dele. Cada item da página mostra:
 
-```js
-function doPost(e) {
-  var d = JSON.parse(e.postData.contents);
-  var sh = SpreadsheetApp.openById("ID_DA_PLANILHA").getSheets()[0];
-  d.rows.forEach(function (r) { sh.appendRow([new Date(), d.annotator, d.model, r.id, r.support, r.form_issue, r.comment, r.ts, r.seconds]); });
-  MailApp.sendEmail("SEU_EMAIL", "[Ocarandu] anotação " + d.model + " · " + d.annotator, d.csv);
-  return ContentService.createTextOutput("ok");
-}
-```
+- o nome e o cargo do participante;
+- uma opinião que o sistema atribuiu a ele;
+- os três trechos da fala dele que mais se parecem com a opinião.
 
-## Protocolo
-Pergunta única por item, a mesma do dataset PublicHearingBR: a opinião é
-sustentada pelos trechos do que essa pessoa disse? Respostas: sustentada /
-não sustentada / não dá para dizer, mais uma flag opcional de forma (1ª pessoa,
-cópia literal, não é opinião) e comentário. Cega quanto à condição; itens em
-ordem embaralhada fixa; dois anotadores por conjunto no mínimo.
+A pergunta é sempre a mesma: **a opinião é sustentada por esses trechos?**
 
-## Juntar e pontuar
-Junte os CSVs recebidos com a chave e rode as estatísticas (script a criar:
-`scripts/annotation_web_results.py`): taxa de "não sustentada" por condição,
-McNemar pareado por participante, κ entre anotadores, e comparação com o
-referee lexical (`referee_best_containment` na chave).
+- *Sustentada*: os trechos confirmam o que a opinião afirma, mesmo com outras palavras.
+- *Não sustentada*: a opinião afirma algo que não está nos trechos, contradiz
+  ou distorce o que foi dito (inclusive números e posições inventados).
+- *Não dá para dizer*: os trechos não tratam do assunto da opinião.
+
+Há ainda uma marcação opcional para problemas de forma (frase em primeira
+pessoa, cópia literal da fala, algo que não é uma opinião) e um campo de
+comentário.
+
+Os itens vêm de duas versões de cada modelo, misturadas e sem identificação.
+Quem anota não sabe de qual versão veio cada opinião, e isso é de propósito.
+
+## Como funciona
+
+1. Escreva seu nome e escolha o seu conjunto. São quatro conjuntos de 100
+   itens, um por pessoa do grupo. Dez itens aparecem em todos os conjuntos,
+   para medirmos a concordância entre anotadores.
+2. Responda item a item. Teclas 1, 2 e 3 escolhem a resposta; F marca problema
+   de forma; as setas navegam.
+3. O progresso fica salvo no navegador. Dá para fechar e continuar depois, no
+   mesmo navegador.
+4. No fim, a página baixa um CSV e abre seu e-mail com destinatário e assunto
+   preenchidos. Anexe o CSV e envie.
+
+## Arquivos
+
+- `index.html`, `app.js`, `style.css`: a página. Não há servidor; tudo roda no navegador.
+- `config.js`: e-mail que recebe os resultados e, se quiser, uma URL para envio automático.
+- `data/items.json`: os itens. Não contém a informação de qual versão gerou cada opinião;
+  essa chave fica fora deste repositório.
+
+Os itens são gerados no repositório principal do projeto por
+`scripts/build_annotation_web_items.py`.

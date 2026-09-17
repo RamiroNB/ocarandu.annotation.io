@@ -13,7 +13,7 @@
   fetch("data/items.json").then(r => r.json()).then(d => {
     DATA = d;
     const sel = $("model");
-    d.models.forEach(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = `${m.label} · ${m.n_items} itens`; sel.appendChild(o); });
+    d.sets.forEach(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = `${m.label} · ${m.n_items} itens`; sel.appendChild(o); });
     const last = safeGet("ocarandu-annot:last");
     if (last) { try { const l = JSON.parse(last); $("annotator").value = l.annotator || ""; sel.value = l.model || sel.value; $("highlight").checked = !!l.highlight; } catch (e) {} }
   }).catch(() => { $("screen-start").innerHTML = "<p>Não consegui carregar <code>data/items.json</code>. Se abriu o arquivo direto do disco, sirva a pasta por HTTP (ex.: <code>python -m http.server</code>) ou publique no GitHub Pages.</p>"; });
@@ -26,7 +26,7 @@
     const annotator = $("annotator").value.trim();
     if (!annotator) { alert("Escreva seu nome ou iniciais."); return; }
     const model = $("model").value;
-    items = DATA.items.filter(it => it.model === model);
+    items = DATA.items.filter(it => it.sets.includes(model));
     storageKey = `ocarandu-annot:${model}:${annotator.toLowerCase()}`;
     state = JSON.parse(safeGet(storageKey) || "null") || { annotator, model, started: new Date().toISOString(), answers: {} };
     safeSet("ocarandu-annot:last", JSON.stringify({ annotator, model, highlight: $("highlight").checked }));
@@ -37,7 +37,7 @@
     const annotator = $("annotator").value.trim(); const model = $("model").value;
     const s = JSON.parse(safeGet(`ocarandu-annot:${model}:${annotator.toLowerCase()}`) || "null");
     if (!s || !Object.keys(s.answers).length) { alert("Nada salvo para esse nome e conjunto neste navegador."); return; }
-    state = s; items = DATA.items.filter(it => it.model === model); download();
+    state = s; items = DATA.items.filter(it => it.sets.includes(model)); download();
   };
 
   function words(t) { return (t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").match(/[a-z]{4,}/g) || []).filter(w => !STOP.has(w)); }
@@ -104,7 +104,7 @@
   function done() {
     show("screen-done");
     const n = items.filter(it => (state.answers[it.id] || {}).support).length;
-    $("done-summary").textContent = `${state.annotator}, você respondeu ${n} de ${items.length} itens do conjunto ${state.model}.`;
+    $("done-summary").textContent = `${state.annotator}, você respondeu ${n} de ${items.length} itens do ${state.model.replace("-", " ")}.`;
     $("progress").textContent = `${state.annotator} · ${n}/${items.length}`;
     const subject = encodeURIComponent(`[Ocarandu] anotação ${state.model} · ${state.annotator} · ${n} itens`);
     const body = encodeURIComponent(`Olá,\n\nsegue em anexo o arquivo ${fileName()} com ${n} itens anotados (conjunto ${state.model}).\n\n(Anexe o CSV que a página baixou.)\n`);

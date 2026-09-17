@@ -1,5 +1,5 @@
 {
-"version": 1,
+"version": 2,
 "seed": 20260917,
 "windows_per_opinion": 3,
 "models": [
@@ -16,10 +16,39 @@
 "n_participants": 100
 }
 ],
+"sets": [
+{
+"id": "conjunto-1",
+"label": "Conjunto 1",
+"n_items": 100,
+"n_shared": 10
+},
+{
+"id": "conjunto-2",
+"label": "Conjunto 2",
+"n_items": 100,
+"n_shared": 10
+},
+{
+"id": "conjunto-3",
+"label": "Conjunto 3",
+"n_items": 100,
+"n_shared": 10
+},
+{
+"id": "conjunto-4",
+"label": "Conjunto 4",
+"n_items": 100,
+"n_shared": 10
+}
+],
 "question": "A opinião abaixo é sustentada pelos trechos do que essa pessoa disse na audiência?",
 "items": [
 {
 "id": "modelo-A-001",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "David Ágape",
 "cargo": "Jornalista freelancer",
@@ -33,6 +62,9 @@
 },
 {
 "id": "modelo-A-002",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Celio Moura",
 "cargo": "Deputado (PT-TO)",
@@ -46,6 +78,9 @@
 },
 {
 "id": "modelo-A-003",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Daniel Facchini",
 "cargo": "Presidente da Associação Brasileira de Quiropraxia",
@@ -59,6 +94,9 @@
 },
 {
 "id": "modelo-A-004",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Monica Andreis",
 "cargo": "Diretora-geral da ONG Aliança de Controle do Tabagismo",
@@ -72,6 +110,9 @@
 },
 {
 "id": "modelo-A-005",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Joana de Vilhena Novaes",
 "cargo": "Psicóloga e pesquisadora da PUC-Rio",
@@ -84,20 +125,10 @@
 "n_windows": 24
 },
 {
-"id": "modelo-A-006",
-"model": "modelo-A",
-"participant": "Glauber Braga",
-"cargo": "Deputado (Psol-RJ)",
-"opinion": "Glauber Braga assumiu a responsabilidade das dificuldades estruturais enfrentadas na Câmara de Educação.",
-"windows": [
-"para nós para que possa nos visualizar e fazer a leitura labial da nossa comunicação. Eu acho que começamos já com um alerta, um aviso importante de quais são as dificuldades enfrentadas estruturalmente no Brasil e, mais especificamente, na Câmara. Repito: assumo por completo a responsabilidade, e isso é inclusive mais um instrumento que tem que fortalecer a nossa luta, não por nenhum favor, mas pela garantia de direitos de todas as pessoas, das pessoas com deficiência. Quero passar a palavra, então, para o Sr. Pedro a fim de que possamos continuar a exposição. Obrigado, Pedro. Pedro, poderia baixar um",
-"completamente a responsabilidade disso, que, evidentemente, não é das trabalhadoras da Comissão de Educação, de forma alguma. Essa é uma questão inclusive estrutural, de responsabilidade dos Parlamentares e da própria Mesa Diretora da Câmara. O fato é que, no conjunto das Comissões, incluindo a Comissão de Educação, não existe intérprete de LIBRAS em todos os encontros, o que é um gravíssimo equívoco, ainda mais em se tratando de um tema como esse que estamos debatendo no dia de hoje. Mas, em qualquer tema, é obrigação da Câmara Federal constituir aquilo que seja o direito de que a mensagem que está",
-"na Comissão de Educação mas também na Comissão de Defesa dos Direitos das Pessoas com Deficiência. Vamos passar às exposições. Há um pedido de inversão da ordem combinada. Concedo então a palavra ao Sr. Pedro Lucas Costa para que faça a sua exposição. Pedro, pode esperar um minutinho? Eu quero saber o que aconteceu. A intérprete de LIBRAS não está aqui. Vamos ver como poderemos solucionar essa questão. Vamos retomar os trabalhos, mas dialogando e fazendo um pacto com vocês, porque este é um pouco o cenário do que vivenciamos também na Câmara e no conjunto dos espaços públicos.Eu assumo"
-],
-"n_windows": 30
-},
-{
 "id": "modelo-A-007",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Frederico Teles",
 "cargo": "Diretor do Departamento de Políticas Setoriais do Ministério de Minas e Energia (MME)",
@@ -111,6 +142,9 @@
 },
 {
 "id": "modelo-A-008",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Aliel Machado",
 "cargo": "Presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado (PV-PR)",
@@ -124,6 +158,9 @@
 },
 {
 "id": "modelo-A-009",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Erika Hilton",
 "cargo": "Deputada (Psol-SP)",
@@ -137,6 +174,12 @@
 },
 {
 "id": "modelo-A-010",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Jorge Solla",
 "cargo": "Deputado (PT-BA)",
@@ -150,6 +193,9 @@
 },
 {
 "id": "modelo-A-011",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciana Gatti",
 "cargo": "Coordenadora do Laboratório de Gases do Efeito Estufa do Instituto Nacional de Pesquisas Espaciais (LaGEE/INPE)",
@@ -163,6 +209,9 @@
 },
 {
 "id": "modelo-A-012",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Gilberto Martins",
 "cargo": "Gerente de Assuntos Técnicos da Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea)",
@@ -176,6 +225,9 @@
 },
 {
 "id": "modelo-A-013",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Paulo Illes",
 "cargo": "Coordenador-geral de Política Migratória do Ministério da Justiça",
@@ -189,6 +241,9 @@
 },
 {
 "id": "modelo-A-014",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Maria do Carmo Ribeiro",
 "cargo": "Associação Brasileira de Autismo",
@@ -202,6 +257,9 @@
 },
 {
 "id": "modelo-A-015",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciana Paula Confort",
 "cargo": "Juíza, vice-presidente da Associação Nacional dos Magistrados da Justiça do Trabalho (Anamatra)",
@@ -215,6 +273,9 @@
 },
 {
 "id": "modelo-A-016",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Erika Hilton",
 "cargo": "Deputada (Psol-SP)",
@@ -228,6 +289,9 @@
 },
 {
 "id": "modelo-A-017",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Jader Barbalho Filho",
 "cargo": "Ministro das Cidades",
@@ -241,6 +305,9 @@
 },
 {
 "id": "modelo-A-018",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Any Ortiz",
 "cargo": "Deputada (Cidadania-RS) e relatora do Projeto de Lei 2768/22",
@@ -254,6 +321,9 @@
 },
 {
 "id": "modelo-A-019",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luizianne Lins",
 "cargo": "Deputada (PT-CE)",
@@ -267,6 +337,9 @@
 },
 {
 "id": "modelo-A-020",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -280,6 +353,9 @@
 },
 {
 "id": "modelo-A-021",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Any Ortiz",
 "cargo": "Deputada (Cidadania-RS) e relatora do Projeto de Lei 2768/22",
@@ -293,6 +369,9 @@
 },
 {
 "id": "modelo-A-022",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Rafael Baldi",
 "cargo": "Diretor adjunto de Produtos da Federação Brasileira de Bancos (Febraban)",
@@ -306,6 +385,9 @@
 },
 {
 "id": "modelo-A-023",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Idilvan Alencar",
 "cargo": "Deputado (PDT-CE)",
@@ -319,6 +401,9 @@
 },
 {
 "id": "modelo-A-024",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Gilson Daniel",
 "cargo": "Deputado (PODE-ES)",
@@ -332,6 +417,9 @@
 },
 {
 "id": "modelo-A-025",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "José Bartolomeu",
 "cargo": "Presidente da ViaBahia",
@@ -345,6 +433,9 @@
 },
 {
 "id": "modelo-A-026",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Ricardo Lewandowski",
 "cargo": "Ministro da Justiça",
@@ -358,6 +449,9 @@
 },
 {
 "id": "modelo-A-027",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Dandara",
 "cargo": "Deputada (PT-MG)",
@@ -371,6 +465,9 @@
 },
 {
 "id": "modelo-A-028",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ) e presidente da Comissão de Legislação Participativa",
@@ -383,33 +480,10 @@
 "n_windows": 36
 },
 {
-"id": "modelo-A-029",
-"model": "modelo-A",
-"participant": "Anna Paula Feminella",
-"cargo": "Secretária Nacional dos Direitos da Pessoa com Deficiência",
-"opinion": "Anna Paula Feminella acredita que a educação inclusiva é importante para superar a exclusão e criar alternativas para superar as práticas discriminatórias.",
-"windows": [
-"como subsídio pela construção da Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva, que apresenta:“A educação inclusiva constitui um paradigma educacional fundamentado na concepção de direitos humanos, que conjuga igualdade e diferença como valores indissociáveis, e que avança em relação à ideia de equidade formal ao contextualizar as circunstâncias históricas da produção da exclusão dentro e fora da escola. Ao reconhecer que as dificuldades enfrentadas nos sistemas de ensino evidenciam a necessidade de confrontar as práticas discriminatórias e criar alternativas para superá-las, a educação inclusiva assume espaço central no debate acerca da sociedade contemporânea e do papel da",
-"está faltando na sua escola, o que está faltando no posto de saúde. E é de baixo para cima que vamos construir essa realidade e superar tantas e tantas barreiras sociais construídas que nos impedem o pleno exercício de direitos. Muito obrigada.(Palmas.) Primeiro, quero me reportar às pessoas com deficiência que nos assistem ou vão nos assistir, às famílias e dizer que contem com a Secretaria Nacional dos Direitos da Pessoa com Deficiência, com o Ministério dos Direitos Humanos e da Cidadania, para que tenhamos o direito assegurado à educação, à educação inclusiva. Deixo explícito que negar o acesso à",
-"Nós falamos que os direitos humanos não têm fronteiras, e isso requer um corpo de profissionais qualificado, assim como o nosso querido Pedro e tantos outros profissionais qualificados para fazer a inclusão, seja na escola, seja em qualquer ambiente. Então, há essa necessidade de regulamentação das profissões vinculadas à inclusão. Aqui nesta Câmara nós conseguimos o avanço da regulamentação do profissional intérprete de LIBRAS. Então, nós estamos nessa contínua evolução. É preciso identificar também a superação do modelo biomédico de deficiência mesmo no espaço escolar. É importante que a escola, como um todo, comprometa-se com a educação inclusiva. Que o"
-],
-"n_windows": 29
-},
-{
-"id": "modelo-A-030",
-"model": "modelo-A",
-"participant": "Fernando Peregrino",
-"cargo": "Presidente do Conselho Nacional das Fundações de Apoio às Instituições de Ensino Superior e de Pesquisa Científica e Tecnológica (Confies)",
-"opinion": "O art. 12 da MP financia um programa que é meritório, mas tira dinheiro da pesquisa e desvia dinheiro para outros setores que não têm nada a ver com a pesquisa.",
-"windows": [
-"todos os cidadãos brasileiros, e qualquer país do mundo faz isso —, mas tira dinheiro da pesquisa, de outro setor que não tem nada a ver com aquilo. E é isso o que está acontecendo. Ele desvia dinheiro da pesquisa para outros segmentos, quando o caminho deveria ser o inverso: retirar recursos de financiamentos de coisas que não produzem benefício social e econômico e encaminhá-lo para a pesquisa. O Brasil não pode sucatear esse patrimônio, que é estratégico para centenas de laboratórios de pesquisa. O Brasil não pode perder o domínio de tecnologia estratégica para exploração de suas reservas de",
-"furar o meu petróleo, que é meu, é da União, mas você pagaroyaltyaqui, paga 1%. Na média, oroyaltyé de 1% para investimento em pesquisa. Foi sábia essa decisão que o Brasil tomou. A medida provisória propõe desmonte, destruição, mas na verdade está desmontando o futuro do Brasil. E isso com um período já marcado: em 2022 e 2027. Por que somos contra, finalmente, o art. 12? Nós não somos contra a MP na íntegra. Nós somos contra o art. 12, notadamente o art. 12, porque ele financia um programa que é meritório — renovar a frota é sempre bom para",
-"homens são diferentes. Hoje se tira dinheiro disso, que é uma riqueza nacional, mas ontem decidiram chamar a universidade para resolver um problema tecnológico importante e deu no que deu. Então, as instituições no Rio de Janeiro — todos sabem que há uma densidade muito grande de instituições científicas — espalham o desenvolvimento. Mas eu fico muito alegre porque, embora eu não seja de lá, eu sou do Nordeste, eu moro lá e visito o País inteiro por ser Presidente. Eu sou um agregado. Então, eu visito Santa Catarina. Fiquei muito triste com aquele episódio do nosso querido Reitor Cancellier,"
-],
-"n_windows": 26
-},
-{
 "id": "modelo-A-031",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Zé Silva",
 "cargo": "Deputado (Solidariedade-MG), presidente da Comissão de Legislação Participativa",
@@ -423,6 +497,9 @@
 },
 {
 "id": "modelo-A-032",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Pedro Paulo",
 "cargo": "Deputado (PSD-RJ), relator da matéria",
@@ -436,6 +513,9 @@
 },
 {
 "id": "modelo-A-033",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Diogo Alves",
 "cargo": "Oficial nacional de Controle de Tabaco e Impostos Saudáveis da Organização Mundial da Saúde (OMS) no Brasil",
@@ -449,6 +529,9 @@
 },
 {
 "id": "modelo-A-034",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Nilma Lino",
 "cargo": "Ex-ministra da Mulher, Família e Direitos Humanos",
@@ -462,6 +545,12 @@
 },
 {
 "id": "modelo-A-035",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Marcio Luiz Coelho de Freitas",
 "cargo": "Conselheiro do Conselho Nacional de Justiça (CNJ)",
@@ -475,6 +564,12 @@
 },
 {
 "id": "modelo-A-036",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Antonio Brito",
 "cargo": "Deputado (PSD-BA) e presidente da Comissão Externa da Câmara dos Deputados para o Enfrentamento da Tuberculose",
@@ -488,6 +583,9 @@
 },
 {
 "id": "modelo-A-037",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Monize Marques",
 "cargo": "Juíza, coordenadora da Central Judicial do Idoso no Distrito Federal",
@@ -501,6 +599,9 @@
 },
 {
 "id": "modelo-A-038",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Nilma Lino",
 "cargo": "Ex-ministra da Mulher, Família e Direitos Humanos",
@@ -514,6 +615,9 @@
 },
 {
 "id": "modelo-A-039",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Laís Abramo",
 "cargo": "Secretária da Política Nacional de Cuidados e Família do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
@@ -527,6 +631,9 @@
 },
 {
 "id": "modelo-A-040",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Aristides Cavalcante Neto",
 "cargo": "Chefe adjunto do Departamento de Tecnologia da Informação do Banco Central",
@@ -539,20 +646,10 @@
 "n_windows": 29
 },
 {
-"id": "modelo-A-041",
-"model": "modelo-A",
-"participant": "Krisztian Katona",
-"cargo": "Vice-presidente de concorrência global e política regulatória da Computer and Communications Industry Association (CCIA)",
-"opinion": "A regulação deve ser considerada em termos de custo-benefício e análise de impacto.",
-"windows": [
-"análise abrangente do custo-benefício e de uma análise de impacto, como foi destacado por agências internacionais como a OCDE — Organização para a Cooperação e Desenvolvimento Econômico e a AICA — Agência Internacional de Cooperação para a Amazônia. As abordagens baseadas em evidências às vezes se demonstram prejudiciais em vez de reverter danos, como se deve pretender. Eu gostaria de destacar que não existe uma abordagem que sirva para todos em termos de regulação. Cada país deve avaliar se existem questões do mercado que requerem regulação e, se for o caso, decidir o modelo que pode ser seguido — o",
-"do mundo, como, por exemplo, na América do Norte ou na Ásia. E também há custos potenciais para os usuários tradicionais e redução da qualidade dos serviços. Obrigado. Essa é uma pergunta muito importante, e eu acho que cobrimos isso parcialmente. Nós já temos parte dessas respostas no momento. Como eu destaquei antes, acho que é extremamente importante que a análise de custo e benefício e a análise de impactos sejam feitas antes dessas regulações serem implementadas.Dos resultados que foram pretendidos ou não, nós só vamos ver, por exemplo, que o DMA vai se tornar completamente operacional no ano que",
-"o Projeto de Lei nº 2.768, se ele vai aumentar os custos variáveis ou fixos, é muito importante destacar que os serviços vão aumentar os custos para os usuários e as empresas também. Isso pode aumentar. E, se tiverem esse aumento dos curtos, elas vão passar adiante para os consumidores. Então, eu acredito que o impacto dessa regulação nesse projeto de lei, de fato, pode aumentar os preços para os consumidores até um ponto em que a lei impedirá os usuários brasileiros de colher os benefícios dessas economias de escala, que estão disponíveis na maior parte do mundo. De fato,"
-],
-"n_windows": 23
-},
-{
 "id": "modelo-A-042",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Julia Salvagni",
 "cargo": "Representante do Grupo Aconchego, do Distrito Federal",
@@ -566,6 +663,9 @@
 },
 {
 "id": "modelo-A-043",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Talíria Petrone",
 "cargo": "Deputada (Psol-RJ)",
@@ -579,6 +679,9 @@
 },
 {
 "id": "modelo-A-044",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Gilberto Martins",
 "cargo": "Gerente de Assuntos Técnicos da Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea)",
@@ -592,6 +695,9 @@
 },
 {
 "id": "modelo-A-045",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciana Paula Confort",
 "cargo": "Juíza, vice-presidente da Associação Nacional dos Magistrados da Justiça do Trabalho (Anamatra)",
@@ -605,6 +711,9 @@
 },
 {
 "id": "modelo-A-046",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Sara Casagrande",
 "cargo": "Neurologista",
@@ -618,6 +727,9 @@
 },
 {
 "id": "modelo-A-047",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Ziller",
 "cargo": "Representante do Instituto Cactus",
@@ -631,6 +743,9 @@
 },
 {
 "id": "modelo-A-048",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Fábio de Araújo",
 "cargo": "Secretário Nacional de Paradesporto",
@@ -644,6 +759,9 @@
 },
 {
 "id": "modelo-A-049",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Lídice da Mata",
 "cargo": "Deputada (PSB-BA)",
@@ -657,6 +775,9 @@
 },
 {
 "id": "modelo-A-050",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Caio Vianna",
 "cargo": "Deputado (PSD-RJ)",
@@ -669,20 +790,10 @@
 "n_windows": 35
 },
 {
-"id": "modelo-A-051",
-"model": "modelo-A",
-"participant": "Krisztian Katona",
-"cargo": "Vice-presidente de concorrência global e política regulatória da Computer and Communications Industry Association (CCIA)",
-"opinion": "Cada país deve avaliar se existem questões do mercado que requerem regulação e decidir o modelo que pode ser seguido, considerando o contexto e a economia local.",
-"windows": [
-"análise abrangente do custo-benefício e de uma análise de impacto, como foi destacado por agências internacionais como a OCDE — Organização para a Cooperação e Desenvolvimento Econômico e a AICA — Agência Internacional de Cooperação para a Amazônia. As abordagens baseadas em evidências às vezes se demonstram prejudiciais em vez de reverter danos, como se deve pretender. Eu gostaria de destacar que não existe uma abordagem que sirva para todos em termos de regulação. Cada país deve avaliar se existem questões do mercado que requerem regulação e, se for o caso, decidir o modelo que pode ser seguido — o",
-"DMA europeu ou o de outros países ou outras propostas internacionais. Qualquer uma dessas propostas pode ou não alcançar os seus objetivos finais nos próximos anos. Nós simplesmente ainda não sabemos. Os países têm que olhar as abordagens que são adequadas para o seu contexto e para a sua economia. A última coisa que eu gostaria de mencionar é um elemento muito importante que o Brasil e qualquer outro país que potencialmente contempla uma regulamentação digital deve levar em consideração. Existe uma competição para investimentos internacionais, e as empresas querem operar, do ponto de vista negocial, nas jurisdições e economias",
-"e, por isso, foram desmanteladas, com todo o apoio político necessário, nos anos 70. Essa experiência regulatória dos Estados Unidos com a ICC e o CAB é um exemplo de que, ainda que essas normas sejam justas e não discriminatórias, ainda que sejam simples, é difícil aplicá-las. As regulações efetivas requerem a definição de alguns elementos, especialmente o que deve ser regulado, por que e como. Eu acho que o Jorge já mencionou algumas das perguntas importantes. Existe um problema de mercado que precisa ser endereçado? Por que essa proposta é a melhor forma de lidar com isso? Como uma"
-],
-"n_windows": 23
-},
-{
 "id": "modelo-A-052",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Alexandre da Silva",
 "cargo": "Atual titular da Secretaria Nacional da Pessoa Idosa",
@@ -696,6 +807,9 @@
 },
 {
 "id": "modelo-A-053",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Lara Simielli",
 "cargo": "Professora da Fundação Getúlio Vargas e uma das autoras do estudo",
@@ -709,6 +823,9 @@
 },
 {
 "id": "modelo-A-054",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Delegado Paulo Bilynskyj",
 "cargo": "Deputado (PL-SP)",
@@ -722,6 +839,9 @@
 },
 {
 "id": "modelo-A-055",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Daniel Facchini",
 "cargo": "Presidente da Associação Brasileira de Quiropraxia",
@@ -734,20 +854,10 @@
 "n_windows": 28
 },
 {
-"id": "modelo-A-056",
-"model": "modelo-A",
-"participant": "Anna Paula Feminella",
-"cargo": "Secretária Nacional dos Direitos da Pessoa com Deficiência",
-"opinion": "Anna Paula Feminella acredita que o direito à educação inclusiva é fundamental para a democratização do Brasil.",
-"windows": [
-"do pescoço.Estou usando um vestido preto com azul escuro e uso cadeira de rodas. O direito à educação inclusiva é um pilar da própria democratização do nosso País. Qualquer Estado que se diz democrático não pode deixar outros para trás, não pode deixar de realizar inclusão social. O Brasil tem esse compromisso e é referência internacional na inclusão das pessoas com deficiência. Os números nos apontam assim. O percentual de pessoas com deficiência que estão na escola regular é algo que chama a atenção dos demais países. Estamos acompanhando a mobilização internacional pela implementação completa da Convenção Internacional sobre os",
-"está faltando na sua escola, o que está faltando no posto de saúde. E é de baixo para cima que vamos construir essa realidade e superar tantas e tantas barreiras sociais construídas que nos impedem o pleno exercício de direitos. Muito obrigada.(Palmas.) Primeiro, quero me reportar às pessoas com deficiência que nos assistem ou vão nos assistir, às famílias e dizer que contem com a Secretaria Nacional dos Direitos da Pessoa com Deficiência, com o Ministério dos Direitos Humanos e da Cidadania, para que tenhamos o direito assegurado à educação, à educação inclusiva. Deixo explícito que negar o acesso à",
-"Governo Federal — agora neste terceiro mandato do Presidente Lula —, e nós estamos apresentando a construção do novo Plano Nacional Viver sem Limite. O novo Viver sem Limite percebe o indivíduo como sujeito de direitos em todos os campos. Então, quando nós falamos em educação inclusiva, nós falamos também do BPC na Escola, que também foi abandonado, para garantir que aquela criança que recebe o Benefício de Prestação Continuada seja acompanhada não só no seu direito de ir e vir, mas também na sua frequência garantida, na sua alimentação adequada; nós falamos de todo o suporte necessário, da questão"
-],
-"n_windows": 29
-},
-{
 "id": "modelo-A-057",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Hugo Leal",
 "cargo": "Deputado (PSD-RJ)",
@@ -761,6 +871,9 @@
 },
 {
 "id": "modelo-A-058",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Abreu",
 "cargo": "Diretor do Sindicato da Indústria de Produtos Farmacêuticos",
@@ -774,6 +887,9 @@
 },
 {
 "id": "modelo-A-059",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Prof. Paulo Fernando",
 "cargo": "Deputado (Republicanos-DF)",
@@ -787,6 +903,9 @@
 },
 {
 "id": "modelo-A-060",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Kenio Lima",
 "cargo": "Coordenador-geral de Política de Envelhecimento Ativo e Saudável e Desenho Universal do Ministério dos Direitos Humanos e da Cidadania",
@@ -800,6 +919,9 @@
 },
 {
 "id": "modelo-A-061",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Diego Alves",
 "cargo": "Presidente do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)",
@@ -813,6 +935,9 @@
 },
 {
 "id": "modelo-A-062",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Aliel Machado",
 "cargo": "Presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado (PV-PR)",
@@ -826,6 +951,9 @@
 },
 {
 "id": "modelo-A-063",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "David Ágape",
 "cargo": "Jornalista freelancer",
@@ -839,6 +967,9 @@
 },
 {
 "id": "modelo-A-064",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Idilvan Alencar",
 "cargo": "Deputado (PDT-CE)",
@@ -852,6 +983,9 @@
 },
 {
 "id": "modelo-A-065",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Ziller",
 "cargo": "Representante do Instituto Cactus",
@@ -865,6 +999,9 @@
 },
 {
 "id": "modelo-A-066",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Roberto Muniz",
 "cargo": "Representante do Fórum Nacional das Entidades Representativas dos Servidores das Carreiras de Ciência e Tecnologia",
@@ -878,6 +1015,9 @@
 },
 {
 "id": "modelo-A-067",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Alexandre da Silva",
 "cargo": "Atual titular da Secretaria Nacional da Pessoa Idosa",
@@ -891,6 +1031,12 @@
 },
 {
 "id": "modelo-A-068",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Rafaela Reis de Oliveira",
 "cargo": "Dirigente da Associação Brasileira de Ensino de Ciências Sociais (ABECS)",
@@ -904,6 +1050,9 @@
 },
 {
 "id": "modelo-A-069",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Lara Simielli",
 "cargo": "Professora da Fundação Getúlio Vargas e uma das autoras do estudo",
@@ -917,6 +1066,9 @@
 },
 {
 "id": "modelo-A-070",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Erika Kokay",
 "cargo": "Deputada (PT-DF)",
@@ -930,6 +1082,9 @@
 },
 {
 "id": "modelo-A-071",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária nacional dos Direitos das Pessoas com Deficiência do Ministério dos Direitos Humanos",
@@ -943,6 +1098,9 @@
 },
 {
 "id": "modelo-A-072",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Helena Bergallo",
 "cargo": "Professora da Universidade do Estado do Rio de Janeiro (UERJ)",
@@ -956,6 +1114,9 @@
 },
 {
 "id": "modelo-A-073",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Prof. Paulo Fernando",
 "cargo": "Deputado (Republicanos-DF)",
@@ -969,6 +1130,9 @@
 },
 {
 "id": "modelo-A-074",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Jorge Braz",
 "cargo": "Deputado (Republicanos-RJ), presidente da Comissão de Defesa do Consumidor",
@@ -982,6 +1146,9 @@
 },
 {
 "id": "modelo-A-075",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bebeto",
 "cargo": "Deputado (PP-RJ)",
@@ -995,6 +1162,9 @@
 },
 {
 "id": "modelo-A-076",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Ricardo Lewandowski",
 "cargo": "Ministro da Justiça",
@@ -1008,6 +1178,9 @@
 },
 {
 "id": "modelo-A-077",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Patrícia Gomes",
 "cargo": "Diretora-executiva de mercado externo da Associação Brasileira da Indústria de Máquinas e Equipamentos (Abimaq)",
@@ -1021,6 +1194,9 @@
 },
 {
 "id": "modelo-A-078",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Mauro Silva",
 "cargo": "Presidente da Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil (Unafisco)",
@@ -1034,6 +1210,9 @@
 },
 {
 "id": "modelo-A-079",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Diogo Alves",
 "cargo": "Oficial nacional de Controle de Tabaco e Impostos Saudáveis da Organização Mundial da Saúde (OMS) no Brasil",
@@ -1047,6 +1226,9 @@
 },
 {
 "id": "modelo-A-080",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Erika Kokay",
 "cargo": "Deputada (PT-DF)",
@@ -1060,6 +1242,9 @@
 },
 {
 "id": "modelo-A-081",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Jandira Feghali",
 "cargo": "Deputada (PCdoB-RJ)",
@@ -1073,6 +1258,9 @@
 },
 {
 "id": "modelo-A-082",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Rodrigo Saraiva",
 "cargo": "Professor da Fundação Escola Superior de Advocacia do Ceará e da Pós-Graduação da Universidade de Fortaleza",
@@ -1086,6 +1274,9 @@
 },
 {
 "id": "modelo-A-083",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -1099,6 +1290,9 @@
 },
 {
 "id": "modelo-A-084",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Leopoldo Muraro",
 "cargo": "Consultor jurídico do Ministério da Ciência e Tecnologia",
@@ -1112,6 +1306,9 @@
 },
 {
 "id": "modelo-A-085",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Marcel van Hattem",
 "cargo": "Deputado (Novo-RS)",
@@ -1125,6 +1322,9 @@
 },
 {
 "id": "modelo-A-086",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luisa Canziani",
 "cargo": "Deputada (PSD-PR)",
@@ -1138,6 +1338,9 @@
 },
 {
 "id": "modelo-A-087",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Ismael Alexandrino",
 "cargo": "Deputado (PSD-GO), médico e ex-secretário de saúde",
@@ -1151,6 +1354,9 @@
 },
 {
 "id": "modelo-A-088",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Patrícia Moller",
 "cargo": "Neurologista pediátrica",
@@ -1164,6 +1370,9 @@
 },
 {
 "id": "modelo-A-089",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Paulo Teixeira",
 "cargo": "Deputado (PT-SP)",
@@ -1177,6 +1386,9 @@
 },
 {
 "id": "modelo-A-090",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luizianne Lins",
 "cargo": "Deputada e presidente da Comissão de Direitos Humanos",
@@ -1190,6 +1402,9 @@
 },
 {
 "id": "modelo-A-091",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Sandra Ramalhoso",
 "cargo": "Presidente da Associação G-14",
@@ -1203,6 +1418,9 @@
 },
 {
 "id": "modelo-A-092",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Andreia Siqueira",
 "cargo": "Deputada (MDB-PA)",
@@ -1216,6 +1434,9 @@
 },
 {
 "id": "modelo-A-093",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Tales Domingos Vieira",
 "cargo": "Representante da Emater Minas",
@@ -1229,6 +1450,9 @@
 },
 {
 "id": "modelo-A-094",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Ismael Alexandrino",
 "cargo": "Deputado (PSD-GO), médico e ex-secretário de saúde",
@@ -1242,6 +1466,9 @@
 },
 {
 "id": "modelo-A-095",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Sandra Ramalhoso",
 "cargo": "Presidente da Associação G-14",
@@ -1255,6 +1482,9 @@
 },
 {
 "id": "modelo-A-096",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Nísia Trindade",
 "cargo": "Ministra da Saúde",
@@ -1268,6 +1498,9 @@
 },
 {
 "id": "modelo-A-097",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Marcel van Hattem",
 "cargo": "Deputado (Novo-RS)",
@@ -1281,6 +1514,9 @@
 },
 {
 "id": "modelo-A-098",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Jorge Nascimento",
 "cargo": "Presidente-executivo da Associação Nacional dos Fabricantes Produtos Eletroeletrônicos (Eletros)",
@@ -1294,6 +1530,9 @@
 },
 {
 "id": "modelo-A-099",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Patrícia Moller",
 "cargo": "Neurologista pediátrica",
@@ -1307,6 +1546,9 @@
 },
 {
 "id": "modelo-A-100",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Paulo Teixeira",
 "cargo": "Deputado (PT-SP)",
@@ -1320,6 +1562,9 @@
 },
 {
 "id": "modelo-A-101",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Aline Yamamoto",
 "cargo": "Diretora de Proteção e Direitos do Ministério das Mulheres",
@@ -1333,6 +1578,9 @@
 },
 {
 "id": "modelo-A-102",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Celio Moura",
 "cargo": "Deputado (PT-TO)",
@@ -1346,6 +1594,9 @@
 },
 {
 "id": "modelo-A-103",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -1359,6 +1610,12 @@
 },
 {
 "id": "modelo-A-104",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Jorge Solla",
 "cargo": "Deputado (PT-BA)",
@@ -1372,6 +1629,12 @@
 },
 {
 "id": "modelo-A-105",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Rafaela Reis de Oliveira",
 "cargo": "Dirigente da Associação Brasileira de Ensino de Ciências Sociais (ABECS)",
@@ -1385,6 +1648,9 @@
 },
 {
 "id": "modelo-A-106",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Caio Vianna",
 "cargo": "Deputado (PSD-RJ)",
@@ -1398,6 +1664,9 @@
 },
 {
 "id": "modelo-A-107",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Alice Portugal",
 "cargo": "Deputada (PCdoB-BA)",
@@ -1411,6 +1680,9 @@
 },
 {
 "id": "modelo-A-108",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Mauro Silva",
 "cargo": "Presidente da Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil (Unafisco)",
@@ -1424,6 +1696,9 @@
 },
 {
 "id": "modelo-A-109",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Monize Marques",
 "cargo": "Juíza, coordenadora da Central Judicial do Idoso no Distrito Federal",
@@ -1437,6 +1712,9 @@
 },
 {
 "id": "modelo-A-110",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Dr. Zacharias Calil",
 "cargo": "Deputado (União-GO)",
@@ -1450,6 +1728,9 @@
 },
 {
 "id": "modelo-A-111",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ) e presidente da Comissão de Legislação Participativa",
@@ -1463,6 +1744,9 @@
 },
 {
 "id": "modelo-A-112",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Daniela Cerqueira",
 "cargo": "Representante do Ministério da Saúde",
@@ -1476,6 +1760,9 @@
 },
 {
 "id": "modelo-A-113",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Márcia Cruz",
 "cargo": "Coordenadora do Centro de Paramiloidose da Universidade Federal do Rio de Janeiro",
@@ -1489,6 +1776,9 @@
 },
 {
 "id": "modelo-A-114",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luizianne Lins",
 "cargo": "Deputada (PT-CE)",
@@ -1502,6 +1792,9 @@
 },
 {
 "id": "modelo-A-115",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Jorge Nascimento",
 "cargo": "Presidente-executivo da Associação Nacional dos Fabricantes Produtos Eletroeletrônicos (Eletros)",
@@ -1515,6 +1808,9 @@
 },
 {
 "id": "modelo-A-116",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Arthur de Almeida Medeiros",
 "cargo": "Coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde",
@@ -1528,6 +1824,9 @@
 },
 {
 "id": "modelo-A-117",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Márcio Tavares",
 "cargo": "Secretário-executivo do Ministério da Cultura",
@@ -1541,6 +1840,9 @@
 },
 {
 "id": "modelo-A-118",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Sara Casagrande",
 "cargo": "Neurologista",
@@ -1554,6 +1856,9 @@
 },
 {
 "id": "modelo-A-119",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Murillo Barbosa",
 "cargo": "Diretor-presidente da Associação de Terminais Portuários Privados",
@@ -1567,6 +1872,9 @@
 },
 {
 "id": "modelo-A-120",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Márcia Cruz",
 "cargo": "Coordenadora do Centro de Paramiloidose da Universidade Federal do Rio de Janeiro",
@@ -1580,6 +1888,9 @@
 },
 {
 "id": "modelo-A-121",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Carina Mineia dos Santos Trindade",
 "cargo": "Representante da Federação Nacional dos Sindicatos dos Motoristas de Aplicativos",
@@ -1593,6 +1904,9 @@
 },
 {
 "id": "modelo-A-122",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Márcio Tavares",
 "cargo": "Secretário-executivo do Ministério da Cultura",
@@ -1606,6 +1920,12 @@
 },
 {
 "id": "modelo-A-123",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Paula Farani",
 "cargo": "Diretora de Política de Concorrência para América Latina da Meta",
@@ -1619,6 +1939,9 @@
 },
 {
 "id": "modelo-A-124",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Carlos Frederico Otoni Garcia",
 "cargo": "Coordenador da Defesa Civil de Minas Gerais",
@@ -1632,6 +1955,9 @@
 },
 {
 "id": "modelo-A-125",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Filipe Martins",
 "cargo": "Deputado (PL-TO)",
@@ -1645,6 +1971,9 @@
 },
 {
 "id": "modelo-A-126",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Maria do Carmo Ribeiro",
 "cargo": "Associação Brasileira de Autismo",
@@ -1658,6 +1987,9 @@
 },
 {
 "id": "modelo-A-127",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Nísia Trindade",
 "cargo": "Ministra da Saúde",
@@ -1671,6 +2003,9 @@
 },
 {
 "id": "modelo-A-128",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Rodrigo Saraiva",
 "cargo": "Professor da Fundação Escola Superior de Advocacia do Ceará e da Pós-Graduação da Universidade de Fortaleza",
@@ -1684,6 +2019,9 @@
 },
 {
 "id": "modelo-A-129",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Alexandre Araújo da Costa",
 "cargo": "Físico e professor da Universidade Federal do Ceará",
@@ -1697,6 +2035,9 @@
 },
 {
 "id": "modelo-A-130",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Rejane Dias",
 "cargo": "Deputada (PT-PI)",
@@ -1710,6 +2051,9 @@
 },
 {
 "id": "modelo-A-131",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Jorge Braz",
 "cargo": "Deputado (Republicanos-RJ), presidente da Comissão de Defesa do Consumidor",
@@ -1723,6 +2067,9 @@
 },
 {
 "id": "modelo-A-132",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciano Valentim Rechiuti",
 "cargo": "Brigadeiro engenheiro e chefe do Subdepartamento Técnico do Departamento de Ciência e Tecnologia Aeroespacial da Aeronáutica",
@@ -1736,6 +2083,9 @@
 },
 {
 "id": "modelo-A-133",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Amaro Neto",
 "cargo": "Deputado (Republicanos-ES)",
@@ -1749,6 +2099,9 @@
 },
 {
 "id": "modelo-A-134",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Amaro Neto",
 "cargo": "Deputado (Republicanos-ES)",
@@ -1762,6 +2115,9 @@
 },
 {
 "id": "modelo-A-135",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Pedro Estevam",
 "cargo": "Professor de Direito no mestrado e doutorado da PUC-SP",
@@ -1775,6 +2131,9 @@
 },
 {
 "id": "modelo-A-136",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Laís Abramo",
 "cargo": "Secretária da Política Nacional de Cuidados e Família do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
@@ -1788,6 +2147,9 @@
 },
 {
 "id": "modelo-A-137",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Monteiro Portela",
 "cargo": "Procurador Federal da Advocacia-Geral da União (AGU)",
@@ -1800,20 +2162,10 @@
 "n_windows": 25
 },
 {
-"id": "modelo-A-138",
-"model": "modelo-A",
-"participant": "Glauber Braga",
-"cargo": "Deputado (Psol-RJ)",
-"opinion": "Glauber Braga assumiu a responsabilidade pela falta de intérprete de LIBRAS na audiência pública.",
-"windows": [
-"completamente a responsabilidade disso, que, evidentemente, não é das trabalhadoras da Comissão de Educação, de forma alguma. Essa é uma questão inclusive estrutural, de responsabilidade dos Parlamentares e da própria Mesa Diretora da Câmara. O fato é que, no conjunto das Comissões, incluindo a Comissão de Educação, não existe intérprete de LIBRAS em todos os encontros, o que é um gravíssimo equívoco, ainda mais em se tratando de um tema como esse que estamos debatendo no dia de hoje. Mas, em qualquer tema, é obrigação da Câmara Federal constituir aquilo que seja o direito de que a mensagem que está",
-"na Comissão de Educação mas também na Comissão de Defesa dos Direitos das Pessoas com Deficiência. Vamos passar às exposições. Há um pedido de inversão da ordem combinada. Concedo então a palavra ao Sr. Pedro Lucas Costa para que faça a sua exposição. Pedro, pode esperar um minutinho? Eu quero saber o que aconteceu. A intérprete de LIBRAS não está aqui. Vamos ver como poderemos solucionar essa questão. Vamos retomar os trabalhos, mas dialogando e fazendo um pacto com vocês, porque este é um pouco o cenário do que vivenciamos também na Câmara e no conjunto dos espaços públicos.Eu assumo",
-"microfone que está na bancada da frente. Obrigado, Prefeito. É um prazer conhecê-lo. Mococa tem quantos habitantes? É uma cidade média. Prazer em conhecê-lo. Vou passar a ficar com a antena ligada para conhecer mais sua administração. Obrigado pela participação na nossa audiência. Agradeço aos senhores palestrantes e às senhoras palestrantes pelas brilhantes contribuições a esta audiência pública. Agradeço a presença de todas e de todos. Reunião deliberativa vai ser realizada na próxima quarta-feira, dia 4 de outubro de 2023, às 9h30min, para apreciação dos itens da pauta. Está encerrada a presente reunião."
-],
-"n_windows": 30
-},
-{
 "id": "modelo-A-139",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Zé Silva",
 "cargo": "Deputado (Solidariedade-MG), presidente da Comissão de Legislação Participativa",
@@ -1827,6 +2179,9 @@
 },
 {
 "id": "modelo-A-140",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Carlos Frederico Otoni Garcia",
 "cargo": "Coordenador da Defesa Civil de Minas Gerais",
@@ -1840,6 +2195,9 @@
 },
 {
 "id": "modelo-A-141",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Coronel Meira",
 "cargo": "Deputado (PL-PE) e relator das propostas na Comissão de Administração e Serviço Público",
@@ -1853,6 +2211,9 @@
 },
 {
 "id": "modelo-A-142",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luisa Canziani",
 "cargo": "Deputada (PSD-PR)",
@@ -1866,6 +2227,9 @@
 },
 {
 "id": "modelo-A-143",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Joana de Vilhena Novaes",
 "cargo": "Psicóloga e pesquisadora da PUC-Rio",
@@ -1879,6 +2243,9 @@
 },
 {
 "id": "modelo-A-144",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Rejane Dias",
 "cargo": "Deputada (PT-PI)",
@@ -1892,6 +2259,9 @@
 },
 {
 "id": "modelo-A-145",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Coronel Meira",
 "cargo": "Deputado (PL-PE) e relator das propostas na Comissão de Administração e Serviço Público",
@@ -1905,6 +2275,9 @@
 },
 {
 "id": "modelo-A-146",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Delegado Paulo Bilynskyj",
 "cargo": "Deputado (PL-SP)",
@@ -1918,6 +2291,9 @@
 },
 {
 "id": "modelo-A-147",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Diego Alves",
 "cargo": "Presidente do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)",
@@ -1931,6 +2307,9 @@
 },
 {
 "id": "modelo-A-148",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Alexandre Araújo da Costa",
 "cargo": "Físico e professor da Universidade Federal do Ceará",
@@ -1944,6 +2323,9 @@
 },
 {
 "id": "modelo-A-149",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Carlos Manuel Baigorri",
 "cargo": "Presidente da Agência Nacional de Telecomunicações (Anatel)",
@@ -1957,6 +2339,9 @@
 },
 {
 "id": "modelo-A-150",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Aline Yamamoto",
 "cargo": "Diretora de Proteção e Direitos do Ministério das Mulheres",
@@ -1970,6 +2355,9 @@
 },
 {
 "id": "modelo-A-151",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Monteiro Portela",
 "cargo": "Procurador Federal da Advocacia-Geral da União (AGU)",
@@ -1983,6 +2371,9 @@
 },
 {
 "id": "modelo-A-152",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Talíria Petrone",
 "cargo": "Deputada (Psol-RJ)",
@@ -1996,6 +2387,9 @@
 },
 {
 "id": "modelo-A-153",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Roberto Muniz",
 "cargo": "Representante do Fórum Nacional das Entidades Representativas dos Servidores das Carreiras de Ciência e Tecnologia",
@@ -2009,6 +2403,12 @@
 },
 {
 "id": "modelo-A-154",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Antonio Brito",
 "cargo": "Deputado (PSD-BA) e presidente da Comissão Externa da Câmara dos Deputados para o Enfrentamento da Tuberculose",
@@ -2022,6 +2422,9 @@
 },
 {
 "id": "modelo-A-155",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Célia Xakriabá",
 "cargo": "Deputada, presidente da Comissão da Amazônia e de Povos Originários e Tradicionais (Psol-MG)",
@@ -2035,6 +2438,9 @@
 },
 {
 "id": "modelo-A-156",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Pedro Estevam",
 "cargo": "Professor de Direito no mestrado e doutorado da PUC-SP",
@@ -2048,6 +2454,9 @@
 },
 {
 "id": "modelo-A-157",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Leopoldo Muraro",
 "cargo": "Consultor jurídico do Ministério da Ciência e Tecnologia",
@@ -2060,20 +2469,10 @@
 "n_windows": 24
 },
 {
-"id": "modelo-A-158",
-"model": "modelo-A",
-"participant": "Fernando Peregrino",
-"cargo": "Presidente do Conselho Nacional das Fundações de Apoio às Instituições de Ensino Superior e de Pesquisa Científica e Tecnológica (Confies)",
-"opinion": "Ele acha que o Brasil não pode quebrar contratos e que a medida provisória trará insegurança jurídica aos investidores.",
-"windows": [
-"Isso trará, certamente, insegurança jurídica aos investidores. Outras fontes de financiamento não foram acionadas. Por que não se faz isso com o BNDES? Por que não se faz redução de gastos tributários de um setor com realocação em outro setor? Por que não se faz isso? Isso é muito mais fácil do que destruir um patrimônio e o ativo do conhecimento. O que pretende a MP, finalmente? Destruir um sistema; destruir um ecossistema de produtor de conhecimento. Ou seja, o Brasil desconstrói, destrói. Essa MP foi muito infeliz nesse art. 12. Mas o que ela está destruindo? Está destruindo 165",
-"petróleo e gás. Nós temos reservas, não é qualquer país que as tem. A Venezuela tem até mais reservas que o Brasil, mas não tem como tirá-las, porque não tem o quê? O saber. E é isto que está em jogo: a destruição do saber, que é o bem maior do século XXI. O Brasil não pode perder esses investimentos, porque já foram feitos muitos. Foram quase 20 bilhões de reais ao longo dessa série histórica. O País não pode quebrar contratos. Eu não vejo como se quebram contratos num país desse! Não se quebra um sem ameaçar os outros!",
-"furar o meu petróleo, que é meu, é da União, mas você pagaroyaltyaqui, paga 1%. Na média, oroyaltyé de 1% para investimento em pesquisa. Foi sábia essa decisão que o Brasil tomou. A medida provisória propõe desmonte, destruição, mas na verdade está desmontando o futuro do Brasil. E isso com um período já marcado: em 2022 e 2027. Por que somos contra, finalmente, o art. 12? Nós não somos contra a MP na íntegra. Nós somos contra o art. 12, notadamente o art. 12, porque ele financia um programa que é meritório — renovar a frota é sempre bom para"
-],
-"n_windows": 26
-},
-{
 "id": "modelo-A-159",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Jandira Feghali",
 "cargo": "Deputada (PCdoB-RJ)",
@@ -2087,6 +2486,9 @@
 },
 {
 "id": "modelo-A-160",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Gilson Daniel",
 "cargo": "Deputado (PODE-ES)",
@@ -2099,20 +2501,10 @@
 "n_windows": 35
 },
 {
-"id": "modelo-A-161",
-"model": "modelo-A",
-"participant": "Assimakis Komminos",
-"cargo": "Advogado especialista em mercados e serviços digitais do escritório de advocacia White & Case",
-"opinion": "A proteção de consumidores é mais importante em regras de concorrência, enquanto o DMA é mais sobre proteger os usuários de negócios e concorrentes.",
-"windows": [
-"os usuários, como você e eu, mas você não encontra muitas dessas regras no mercado digital. Na verdade, você tem muitas dessas regras em instrumentos diferentes, na lei de serviços digitais. Trata-se de conteúdo, etc. Volto à sua pergunta original. A Lei de Mercados Digitais é mais sobre os concorrentes, e as regras de concorrência são mais sobre os consumidores. Minha proposta é que, pelo menos, não esqueçam os usuários finais quando introduzirem regras específicas para as plataformas digitais. Por causa da inflexibilidade dessas regras, elas podem causar danos à experiência do consumidor. Isso é algo que eu vejo com",
-"os consumidores como tais. É claro que talvez haja resultados positivos ou consequências positivas para os consumidores, mas, na realidade, e eu acredito que ninguém discordaria disto, o DMA é mais sobre os usuários do negócio, essencialmente, ou seja, estamos falando de concorrentes, mas também de negócios que estruturam seus produtos e serviços em torno dos produtos das plataformas digitais. Eles usam as plataformas digitais para servir aos consumidores, obviamente. O objetivo do DMA é proteger esses usuários de negócios em particular. É claro que existem algumas provisões muito menores que alguém poderia dizer que tratam de proteger os consumidores,",
-"nossa própria indústria baseada na área digital, queremos ter, digamos, intermediários na nossa indústria. Então, nós queremos criar regras para eles, etc. Agora, em relação às regras de concorrência, o objetivo não é proteger os intermediários, os concorrentes como tais, mas é proteger os consumidores, claro. Você precisa dessa intermediação para poder ter a concorrência. Mas, se a sua mera existência não levar a preços baixos, à melhor qualidade, melhor inovação, estamos falando de concorrentes totalmente ineficientes. Então, eu sinto muito, mas não é o caso no qual interviríamos. O DMA é diferente.Na minha visão, não se trata de proteger"
-],
-"n_windows": 26
-},
-{
 "id": "modelo-A-162",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bebeto",
 "cargo": "Deputado (PP-RJ)",
@@ -2126,6 +2518,9 @@
 },
 {
 "id": "modelo-A-163",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -2139,6 +2534,9 @@
 },
 {
 "id": "modelo-A-164",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Dr. Zacharias Calil",
 "cargo": "Deputado (União-GO)",
@@ -2152,6 +2550,9 @@
 },
 {
 "id": "modelo-A-165",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Rafael Baldi",
 "cargo": "Diretor adjunto de Produtos da Federação Brasileira de Bancos (Febraban)",
@@ -2165,6 +2566,12 @@
 },
 {
 "id": "modelo-A-166",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Paula Farani",
 "cargo": "Diretora de Política de Concorrência para América Latina da Meta",
@@ -2178,6 +2585,9 @@
 },
 {
 "id": "modelo-A-167",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Monica Andreis",
 "cargo": "Diretora-geral da ONG Aliança de Controle do Tabagismo",
@@ -2191,6 +2601,9 @@
 },
 {
 "id": "modelo-A-168",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Helena Bergallo",
 "cargo": "Professora da Universidade do Estado do Rio de Janeiro (UERJ)",
@@ -2204,6 +2617,9 @@
 },
 {
 "id": "modelo-A-169",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Daniela Cerqueira",
 "cargo": "Representante do Ministério da Saúde",
@@ -2217,6 +2633,9 @@
 },
 {
 "id": "modelo-A-170",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Hugo Leal",
 "cargo": "Deputado (PSD-RJ)",
@@ -2230,6 +2649,12 @@
 },
 {
 "id": "modelo-A-171",
+"sets": [
+"conjunto-1",
+"conjunto-2",
+"conjunto-3",
+"conjunto-4"
+],
 "model": "modelo-A",
 "participant": "Marcio Luiz Coelho de Freitas",
 "cargo": "Conselheiro do Conselho Nacional de Justiça (CNJ)",
@@ -2243,6 +2668,9 @@
 },
 {
 "id": "modelo-A-172",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Patrícia Gomes",
 "cargo": "Diretora-executiva de mercado externo da Associação Brasileira da Indústria de Máquinas e Equipamentos (Abimaq)",
@@ -2256,6 +2684,9 @@
 },
 {
 "id": "modelo-A-173",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Aristides Cavalcante Neto",
 "cargo": "Chefe adjunto do Departamento de Tecnologia da Informação do Banco Central",
@@ -2269,6 +2700,9 @@
 },
 {
 "id": "modelo-A-174",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "José Bartolomeu",
 "cargo": "Presidente da ViaBahia",
@@ -2282,6 +2716,9 @@
 },
 {
 "id": "modelo-A-175",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Fábio de Araújo",
 "cargo": "Secretário Nacional de Paradesporto",
@@ -2295,6 +2732,9 @@
 },
 {
 "id": "modelo-A-176",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária nacional dos Direitos das Pessoas com Deficiência do Ministério dos Direitos Humanos",
@@ -2308,6 +2748,9 @@
 },
 {
 "id": "modelo-A-177",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Carina Mineia dos Santos Trindade",
 "cargo": "Representante da Federação Nacional dos Sindicatos dos Motoristas de Aplicativos",
@@ -2321,6 +2764,9 @@
 },
 {
 "id": "modelo-A-178",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Pedro Paulo",
 "cargo": "Deputado (PSD-RJ), relator da matéria",
@@ -2334,6 +2780,9 @@
 },
 {
 "id": "modelo-A-179",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Frederico Teles",
 "cargo": "Diretor do Departamento de Políticas Setoriais do Ministério de Minas e Energia (MME)",
@@ -2347,6 +2796,9 @@
 },
 {
 "id": "modelo-A-180",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Alice Portugal",
 "cargo": "Deputada (PCdoB-BA)",
@@ -2360,6 +2812,9 @@
 },
 {
 "id": "modelo-A-181",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Célia Xakriabá",
 "cargo": "Deputada, presidente da Comissão da Amazônia e de Povos Originários e Tradicionais (Psol-MG)",
@@ -2373,6 +2828,9 @@
 },
 {
 "id": "modelo-A-182",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Jader Barbalho Filho",
 "cargo": "Ministro das Cidades",
@@ -2386,6 +2844,9 @@
 },
 {
 "id": "modelo-A-183",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Geísa Boaventura",
 "cargo": "Coordenadora do Fórum de Pró-reitores de Extensão dos Institutos Federais de Educação Profissional e Tecnológica",
@@ -2398,20 +2859,10 @@
 "n_windows": 20
 },
 {
-"id": "modelo-A-184",
-"model": "modelo-A",
-"participant": "Assimakis Komminos",
-"cargo": "Advogado especialista em mercados e serviços digitais do escritório de advocacia White & Case",
-"opinion": "Assimakis Komminos acredita que as regras de concorrência devem ser adaptadas para o setor digital, com regras específicas para plataformas digitais.",
-"windows": [
-"os usuários, como você e eu, mas você não encontra muitas dessas regras no mercado digital. Na verdade, você tem muitas dessas regras em instrumentos diferentes, na lei de serviços digitais. Trata-se de conteúdo, etc. Volto à sua pergunta original. A Lei de Mercados Digitais é mais sobre os concorrentes, e as regras de concorrência são mais sobre os consumidores. Minha proposta é que, pelo menos, não esqueçam os usuários finais quando introduzirem regras específicas para as plataformas digitais. Por causa da inflexibilidade dessas regras, elas podem causar danos à experiência do consumidor. Isso é algo que eu vejo com",
-"digitais, mas é claro que a definição depende de cada uma das leis dos países. Nós estamos falando sobre leis específicas para esse setor digital. Outro elemento que também é importante são as regras que regulamentam o setor digital. Em outras palavras, essas regras significam,ex ante,a regulação que vai ser aplicada de agora em diante, ao contrário da regulaçãoex post,ou seja, as regras de competitividades que são aplicadas. As autoridades de concorrência só vão atuar de agora em diante, ou seja, depois que uma conduta ocorra, enquanto aqui nós estamos falando sobre uma regulamentação e intervenção antes que haja qualquer",
-"Muito obrigado. Eu espero que vocês consigam me ouvir bem e que não haja interrupção. Eu estou falando da Grécia, que é bem distante. É um prazer e uma honra falar da minha experiência pessoal, como me pediram, enquanto estou lidando com esse fenômeno. Nós estamos falando, basicamente, da introdução de um grupo de leis específicas e de regras específicas que são muito semelhantes às regras de competitividade, mas que são específicas, ou seja, elas têm um aspectosui generisque se aplicam a empresas e a algumas companhias que fazem negócios no setor digital. Nós podemos descrever essas empresas como plataformas"
-],
-"n_windows": 26
-},
-{
 "id": "modelo-A-185",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Tales Domingos Vieira",
 "cargo": "Representante da Emater Minas",
@@ -2425,6 +2876,9 @@
 },
 {
 "id": "modelo-A-186",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Andreia Siqueira",
 "cargo": "Deputada (MDB-PA)",
@@ -2438,6 +2892,9 @@
 },
 {
 "id": "modelo-A-187",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Filipe Martins",
 "cargo": "Deputado (PL-TO)",
@@ -2451,6 +2908,9 @@
 },
 {
 "id": "modelo-A-188",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Paulo Illes",
 "cargo": "Coordenador-geral de Política Migratória do Ministério da Justiça",
@@ -2464,6 +2924,9 @@
 },
 {
 "id": "modelo-A-189",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Geísa Boaventura",
 "cargo": "Coordenadora do Fórum de Pró-reitores de Extensão dos Institutos Federais de Educação Profissional e Tecnológica",
@@ -2477,6 +2940,9 @@
 },
 {
 "id": "modelo-A-190",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Luizianne Lins",
 "cargo": "Deputada e presidente da Comissão de Direitos Humanos",
@@ -2490,6 +2956,9 @@
 },
 {
 "id": "modelo-A-191",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Bruno Abreu",
 "cargo": "Diretor do Sindicato da Indústria de Produtos Farmacêuticos",
@@ -2503,6 +2972,9 @@
 },
 {
 "id": "modelo-A-192",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Arthur de Almeida Medeiros",
 "cargo": "Coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde",
@@ -2516,6 +2988,9 @@
 },
 {
 "id": "modelo-A-193",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Lídice da Mata",
 "cargo": "Deputada (PSB-BA)",
@@ -2529,6 +3004,9 @@
 },
 {
 "id": "modelo-A-194",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Murillo Barbosa",
 "cargo": "Diretor-presidente da Associação de Terminais Portuários Privados",
@@ -2542,6 +3020,9 @@
 },
 {
 "id": "modelo-A-195",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciano Valentim Rechiuti",
 "cargo": "Brigadeiro engenheiro e chefe do Subdepartamento Técnico do Departamento de Ciência e Tecnologia Aeroespacial da Aeronáutica",
@@ -2555,6 +3036,9 @@
 },
 {
 "id": "modelo-A-196",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Carlos Manuel Baigorri",
 "cargo": "Presidente da Agência Nacional de Telecomunicações (Anatel)",
@@ -2568,6 +3052,9 @@
 },
 {
 "id": "modelo-A-197",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Julia Salvagni",
 "cargo": "Representante do Grupo Aconchego, do Distrito Federal",
@@ -2581,6 +3068,9 @@
 },
 {
 "id": "modelo-A-198",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Dandara",
 "cargo": "Deputada (PT-MG)",
@@ -2594,6 +3084,9 @@
 },
 {
 "id": "modelo-A-199",
+"sets": [
+"conjunto-2"
+],
 "model": "modelo-A",
 "participant": "Luciana Gatti",
 "cargo": "Coordenadora do Laboratório de Gases do Efeito Estufa do Instituto Nacional de Pesquisas Espaciais (LaGEE/INPE)",
@@ -2607,6 +3100,9 @@
 },
 {
 "id": "modelo-A-200",
+"sets": [
+"conjunto-1"
+],
 "model": "modelo-A",
 "participant": "Kenio Lima",
 "cargo": "Coordenador-geral de Política de Envelhecimento Ativo e Saudável e Desenho Universal do Ministério dos Direitos Humanos e da Cidadania",
@@ -2620,6 +3116,9 @@
 },
 {
 "id": "modelo-B-001",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luciana Gatti",
 "cargo": "Coordenadora do Laboratório de Gases do Efeito Estufa do Instituto Nacional de Pesquisas Espaciais (LaGEE/INPE)",
@@ -2632,20 +3131,10 @@
 "n_windows": 36
 },
 {
-"id": "modelo-B-002",
-"model": "modelo-B",
-"participant": "Amaro Neto",
-"cargo": "Deputado (Republicanos-ES)",
-"opinion": "Amaro Neto propôs a modernização da Lei da Radiodifusão e questionou como a ANATEL e o Ministério das Comunicações podem regulamentar as novas mídias digitais.",
-"windows": [
-"mesmo ocorre com a TV a cabo e os serviços destreaming. Muito se discute aqui no Congresso Nacional. Como o Ministério das Comunicações e a ANATEL podem nos ajudar a mudar esse panorama? Nós sabemos que o Ministério das Comunicações já tem um estudo para modernizar a Lei da Radiodifusão. Pergunto: o que pode ser feito, com o braço de vocês, com a ajuda de vocês, para tocarmos projetos importantes aqui na Casa para acelerar essa modernização, a fim de que a radiodifusão e o serviço de TV a cabo não fiquem tão presos? O que pode ser feito para",
-"que essas novas mídias e essa comunicação diferenciada possam ser taxadas ou tenham que cumprir algumas determinações? Nós sabemos que a radiodifusão é uma concessão pública, mas as outras não são. Como achar esse meio-termo, Presidente? O Presidente falou, na sua explanação, sobre inteligência artificial. Existe uma discussão sobre o assunto já acontecendo em todo o mundo. Como podemos lidar com a inteligência artificial no País, sendo que hoje ela traz benefícios de grande monta, mas criminosos estão utilizando-a para extorquir, para manchar a reputação de várias pessoas? Quais iniciativas podemos vislumbrar não para regulamentarmos a inteligência artificial neste momento,",
-"com o consumidor. Eu gostaria que o Presidente as explicasse para quem está nos acompanhando. Refiro-me às decisões sobre atraso de conta de celular; diminuição do número de lojas físicas das empresas de telefonia; e novo horário do SAC, que deixa de funcionar 24 horas para funcionar no horário preestabelecido de 6 horas da manhã às 10 horas da noite. O senhor poderia falar sobre esses três temas, que mexem com o consumidor? Ótimo, Presidente. Vou finalizar os meus questionamentos. O senhor falou também das diversas obrigações que a radiodifusão tem e que as mídias digitais não têm — o"
-],
-"n_windows": 18
-},
-{
 "id": "modelo-B-003",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Fábio de Araújo",
 "cargo": "Secretário Nacional de Paradesporto",
@@ -2659,6 +3148,9 @@
 },
 {
 "id": "modelo-B-004",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Rafaela Reis de Oliveira",
 "cargo": "Dirigente da Associação Brasileira de Ensino de Ciências Sociais (ABECS)",
@@ -2672,6 +3164,9 @@
 },
 {
 "id": "modelo-B-005",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Zé Silva",
 "cargo": "Deputado (Solidariedade-MG), presidente da Comissão de Legislação Participativa",
@@ -2685,6 +3180,9 @@
 },
 {
 "id": "modelo-B-006",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Andreia Siqueira",
 "cargo": "Deputada (MDB-PA)",
@@ -2698,6 +3196,9 @@
 },
 {
 "id": "modelo-B-007",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Antonio Brito",
 "cargo": "Deputado (PSD-BA) e presidente da Comissão Externa da Câmara dos Deputados para o Enfrentamento da Tuberculose",
@@ -2711,6 +3212,9 @@
 },
 {
 "id": "modelo-B-008",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Fernando Peregrino",
 "cargo": "Presidente do Conselho Nacional das Fundações de Apoio às Instituições de Ensino Superior e de Pesquisa Científica e Tecnológica (Confies)",
@@ -2724,6 +3228,9 @@
 },
 {
 "id": "modelo-B-009",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Leopoldo Muraro",
 "cargo": "Consultor jurídico do Ministério da Ciência e Tecnologia",
@@ -2736,20 +3243,10 @@
 "n_windows": 24
 },
 {
-"id": "modelo-B-010",
-"model": "modelo-B",
-"participant": "Patrícia Gomes",
-"cargo": "Diretora-executiva de mercado externo da Associação Brasileira da Indústria de Máquinas e Equipamentos (Abimaq)",
-"opinion": "Patrícia Gomes considera que a reforma tributária é essencial para melhorar a competitividade do setor industrial.",
-"windows": [
-"isso significa? Significa menor capital para que o empresário possa investir em inovação, melhorar seu processo produtivo, investir em capacitação, que é outro problema muito grande que ainda temos na nossa economia. Precisamos, sim, de uma política estruturada de acesso a crédito de maneira competitiva. E ainda existe, só para poder contribuir com a discussão, a questão da capacitação da mão de obra. Hoje o tema da reforma tributária e da capacitação da mão de obra, de acesso a uma mão de obra qualificada, é uma questão crítica para o setor industrial. Temos que contar com a CNI e toda",
-"pífio. Então precisamos, sim, tratar a questão da reforma tributária para que possamos ser competitivos, concorrer aqui com os bens importados, com outras economias que são referências na questão industrial, mas também para podermos buscar novos mercados, competir no mercado internacional. Essa questão tributária é uma agenda inicial que deve ser tratada para trazer a tão esperada competitividade do setor industrial. Quanto à política industrial, como o Marcos comentou, temos visto grandes economias — Estados Unidos, a própria China e a União Europeia — com políticas muito agressivas no campo industrial, até ligadas a questão da transição energética, da economia",
-"— é a questão da reforma tributária. Esse é um ponto que precisa, logicamente, ser resolvido, para atenuar os impactos que essa agenda traz para o setor produtivo, especialmente para a indústria, que é o setor mais onerado, mas que possa trazer competitividade para o setor. Não é possível fazer uma política industrial sem atacar, lógico, concomitante e primeiro, a questão da reforma tributária. Hoje, qualquer política industrial que seja colocada para o setor industrial de forma horizontal ou de forma vertical em setores, sem tratar a questão tributária, vai ser inócua ou vai ter um resultado que pode ser"
-],
-"n_windows": 20
-},
-{
 "id": "modelo-B-011",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Jandira Feghali",
 "cargo": "Deputada (PCdoB-RJ)",
@@ -2763,6 +3260,9 @@
 },
 {
 "id": "modelo-B-012",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Dandara",
 "cargo": "Deputada (PT-MG)",
@@ -2776,6 +3276,9 @@
 },
 {
 "id": "modelo-B-013",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Alexandre Araújo da Costa",
 "cargo": "Físico e professor da Universidade Federal do Ceará",
@@ -2788,33 +3291,10 @@
 "n_windows": 36
 },
 {
-"id": "modelo-B-014",
-"model": "modelo-B",
-"participant": "Frederico Teles",
-"cargo": "Diretor do Departamento de Políticas Setoriais do Ministério de Minas e Energia (MME)",
-"opinion": "As concessões podem ser prorrogadas a critério do poder concedente, segundo o Acórdão 2.253 do TCU, com a respectiva previsão legal, segundo afirmou Frederico Teles.",
-"windows": [
-"relevante; e que estamos tentando cumprir os normativos. Nós estamos levando adiante a discussão sobre as prorrogações das concessões ou, eventualmente, das licitações, que também podem estar abarcadas em futuro decreto que pode ser publicado. Nós entendemos que isso é uma designação legal. Isso vem tanto da Lei das Concessões quanto do entendimento do TCU, que disse:\"Vocês têm que fazer essas definições para que o setor elétrico não pare\". Com relação a isso, no Acórdão nº 118, de 2024, do Relator Antonio Anastasia, o TCU disse bem claramente que as concessões de distribuição podem ser prorrogadas a critério do poder",
-"de concessões dessas concessionárias, já havia a previsão legal de prorrogação. Então, esse é um ponto que estamos tratando aqui. Aconteceu o primeiro momento em 1995, houve o segundo momento em 2015 e, agora, em 2025, vamos entrar no terceiro momento das concessões de distribuição. É aí que entram tanto o Ministério de Minas e Energia quanto uma parte do Tribunal de Contas da União — TCU. O TCU, em 2015, por meio do Acórdão 2.253, proferido pelo agora Ministro da Defesa, José Mucio Monteiro, definiu que o poder concedente não deveria tratar da prorrogação das concessões de distribuição com",
-"concedente, com fundamento na Lei nº 9.074, de 1995,porém cabe ao poder concedente a edição dos atos necessários para a respectiva competência em relação às concessões vincendas. Além disso, nós temos que sopesar as mais diversas questões. O próprio TCU também reconhece que nós estamos exercendo a nossa competência e que nós temos que exercer a nossa competência. O TCU também propôs que, nas hipóteses em que o poder concedente optar pela prorrogação, o Tribunal faça o acompanhamento individualizado. O TCU vai fiscalizar esse processo, vai olhar o que vai resultar de possíveis termos aditivos, caso esses venham a ocorrer,"
-],
-"n_windows": 11
-},
-{
-"id": "modelo-B-015",
-"model": "modelo-B",
-"participant": "Caio Vianna",
-"cargo": "Deputado (PSD-RJ)",
-"opinion": "Caio Vianna critica a falta de consenso e de coordenação entre órgãos governamentais na implementação de sistemas de tecnologia.",
-"windows": [
-"a partir do momento em que se implementou a tecnologia deblockchainna administração pública de Dubai. Essa é, portanto, uma realidade hoje em diversos setores, em diversos Governos. Não dá para nós aqui no Brasil abdicarmos dessa discussão. Não dá para não querermos acelerar e desenvolver essa pauta, pelo contrário. É por isso que mais uma vez eu parabenizo não só o Banco Central, mas também o TCU, o BNDES e diversas outras instituições, como o DATAPREV, que já estão fazendo essa pesquisa. Eu acho que os outros órgãos governamentais, o Ministério da Ciência, Tecnologia e Inovação, nós aqui no Congresso,",
-"complexidade de implementação, uma curva de aprendizado, de capacitação de pessoas para conseguir, obviamente, ajudar no desenvolvimento e também na manutenção dessa rede. Não dá para, daqui a pouco, haver 200 redes no Brasil, como já acontece hoje com vários sistemas legados dentro do Governo que não se comunicam. Existem sistemas de saúde específicos em cada Município, em cada Estado, que não se comunicam. Então é uma dificuldade, obviamente, transacionar essas informações e dar um serviço melhor para o cidadão na ponta. Esse é um cuidado que realmente é preciso ter, ainda mais quando se trata de uma tecnologia extremamente",
-"se faz necessário que este Parlamento, o Congresso, amplie essas discussões, e, por isso, eu não poderia estar mais satisfeito e feliz em ter uma ampla participação dos representantes do Governo, de órgãos de controle externo, do Banco Central — que tem sido extremamente inovador nesta pauta —, do mercado privado, na figura do Julien, representando a Mercado Bitcoin, do Caio Sanas, que é um advogado e que também tem toda a sua especialização na área de inovação e tecnologia. Portanto, diante das apresentações extremamente robustas, eu tenho algumas dúvidas, questionamentos e também algumas considerações para fazer. Eu gostaria de"
-],
-"n_windows": 35
-},
-{
 "id": "modelo-B-016",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "David Ágape",
 "cargo": "Jornalista freelancer",
@@ -2828,6 +3308,9 @@
 },
 {
 "id": "modelo-B-017",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Alexandre da Silva",
 "cargo": "Atual titular da Secretaria Nacional da Pessoa Idosa",
@@ -2841,6 +3324,9 @@
 },
 {
 "id": "modelo-B-018",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Monica Andreis",
 "cargo": "Diretora-geral da ONG Aliança de Controle do Tabagismo",
@@ -2854,6 +3340,9 @@
 },
 {
 "id": "modelo-B-019",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Luciano Valentim Rechiuti",
 "cargo": "Brigadeiro engenheiro e chefe do Subdepartamento Técnico do Departamento de Ciência e Tecnologia Aeroespacial da Aeronáutica",
@@ -2867,6 +3356,9 @@
 },
 {
 "id": "modelo-B-020",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Aline Yamamoto",
 "cargo": "Diretora de Proteção e Direitos do Ministério das Mulheres",
@@ -2880,6 +3372,9 @@
 },
 {
 "id": "modelo-B-021",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Helena Bergallo",
 "cargo": "Professora da Universidade do Estado do Rio de Janeiro (UERJ)",
@@ -2893,6 +3388,9 @@
 },
 {
 "id": "modelo-B-022",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Coronel Meira",
 "cargo": "Deputado (PL-PE) e relator das propostas na Comissão de Administração e Serviço Público",
@@ -2906,6 +3404,9 @@
 },
 {
 "id": "modelo-B-023",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Marcio Luiz Coelho de Freitas",
 "cargo": "Conselheiro do Conselho Nacional de Justiça (CNJ)",
@@ -2919,6 +3420,9 @@
 },
 {
 "id": "modelo-B-024",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Julia Salvagni",
 "cargo": "Representante do Grupo Aconchego, do Distrito Federal",
@@ -2932,6 +3436,9 @@
 },
 {
 "id": "modelo-B-025",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Any Ortiz",
 "cargo": "Deputada (Cidadania-RS) e relatora do Projeto de Lei 2768/22",
@@ -2945,6 +3452,9 @@
 },
 {
 "id": "modelo-B-026",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Ismael Alexandrino",
 "cargo": "Deputado (PSD-GO), médico e ex-secretário de saúde",
@@ -2958,6 +3468,9 @@
 },
 {
 "id": "modelo-B-027",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Zé Silva",
 "cargo": "Deputado (Solidariedade-MG), presidente da Comissão de Legislação Participativa",
@@ -2971,6 +3484,9 @@
 },
 {
 "id": "modelo-B-028",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Aline Yamamoto",
 "cargo": "Diretora de Proteção e Direitos do Ministério das Mulheres",
@@ -2983,20 +3499,10 @@
 "n_windows": 18
 },
 {
-"id": "modelo-B-029",
-"model": "modelo-B",
-"participant": "Márcio Tavares",
-"cargo": "Secretário-executivo do Ministério da Cultura",
-"opinion": "Ele afirma que o Ministério da Cultura conseguiu o maior investimento da história, com recursos da CONDECINE sem contingenciamento.",
-"windows": [
-"Ministério, garantindo o maior investimento da história, inclusive com relação a recursos da CONDECINE, que, pela primeira vez, não sofreram qualquer tipo de contingenciamento. Isso é digno de nota porque é um esforço grande de gestão num ambiente fiscal que não é dos mais favoráveis da nossa trajetória. Então, isso demonstra uma prioridade importante. Conseguimos, dentro do Comitê Gestor do Fundo Setorial do Audiovisual, uma discussão bastante positiva para que possamos enxergar oportunidades no próximo ano. Temos que lidar tanto com o cenário interno quanto com o cenário externo. O cenário externo foi marcado inclusive pela greve dos setores de",
-"com essa orientação. E também retomamos — no próximo ano, vamos ser homenageados no festival dos BRICS — a participação brasileira nos festivais em associação com a APEX, como a Daniela já comentou aqui, e com todas as demais agências governamentais e o Itamaraty. Temos buscado trabalhar muito com o conjunto de agências dentro do Governo, de Ministérios, para otimizarmos os recursos para que tenhamos uma maior presença do nosso audiovisual lá fora, mas que possamos também internacionalizar os nossos festivais, porque isso é muito importante. Então, que possamos trazer programadores estrangeiros, para prestigiar os nossos festivais, visibilizar a nossa",
-"Deputado da Paraíba, que possamos também ver frutificar outros polos audiovisuais do País. Então, não temos trabalhado de forma nenhuma gerando dicotomias entre diferentes ambientes. Por fim, é muito importante aproveitarmos os acordos internacionais que temos desenvolvido. Nós colocamos o tema dos direitos autorais, sobretudo, e do ambiente digital na pauta do G-20 que o Ministério da Cultura vai discutir no ano que vem. É um dos quatro eixos. E certamente a defesa da produção intelectual e da regulamentação das plataformas vai ser um tema que nós vamos levar. Já levamos esse tema para a reunião dos Ministros da Cultura"
-],
-"n_windows": 14
-},
-{
 "id": "modelo-B-030",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jorge Solla",
 "cargo": "Deputado (PT-BA)",
@@ -3010,6 +3516,9 @@
 },
 {
 "id": "modelo-B-031",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Aliel Machado",
 "cargo": "Presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado (PV-PR)",
@@ -3023,6 +3532,9 @@
 },
 {
 "id": "modelo-B-032",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Geísa Boaventura",
 "cargo": "Coordenadora do Fórum de Pró-reitores de Extensão dos Institutos Federais de Educação Profissional e Tecnológica",
@@ -3036,6 +3548,9 @@
 },
 {
 "id": "modelo-B-033",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Diego Alves",
 "cargo": "Presidente do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)",
@@ -3049,6 +3564,9 @@
 },
 {
 "id": "modelo-B-034",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bruno Monteiro Portela",
 "cargo": "Procurador Federal da Advocacia-Geral da União (AGU)",
@@ -3062,6 +3580,9 @@
 },
 {
 "id": "modelo-B-035",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Carlos Manuel Baigorri",
 "cargo": "Presidente da Agência Nacional de Telecomunicações (Anatel)",
@@ -3075,6 +3596,9 @@
 },
 {
 "id": "modelo-B-036",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bruno Abreu",
 "cargo": "Diretor do Sindicato da Indústria de Produtos Farmacêuticos",
@@ -3088,6 +3612,9 @@
 },
 {
 "id": "modelo-B-037",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Prof. Paulo Fernando",
 "cargo": "Deputado (Republicanos-DF)",
@@ -3101,6 +3628,9 @@
 },
 {
 "id": "modelo-B-038",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Carina Mineia dos Santos Trindade",
 "cargo": "Representante da Federação Nacional dos Sindicatos dos Motoristas de Aplicativos",
@@ -3114,6 +3644,9 @@
 },
 {
 "id": "modelo-B-039",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Any Ortiz",
 "cargo": "Deputada (Cidadania-RS) e relatora do Projeto de Lei 2768/22",
@@ -3127,6 +3660,9 @@
 },
 {
 "id": "modelo-B-040",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Celio Moura",
 "cargo": "Deputado (PT-TO)",
@@ -3140,6 +3676,9 @@
 },
 {
 "id": "modelo-B-041",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jorge Nascimento",
 "cargo": "Presidente-executivo da Associação Nacional dos Fabricantes Produtos Eletroeletrônicos (Eletros)",
@@ -3153,6 +3692,9 @@
 },
 {
 "id": "modelo-B-042",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Jandira Feghali",
 "cargo": "Deputada (PCdoB-RJ)",
@@ -3166,6 +3708,9 @@
 },
 {
 "id": "modelo-B-043",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Murillo Barbosa",
 "cargo": "Diretor-presidente da Associação de Terminais Portuários Privados",
@@ -3179,6 +3724,9 @@
 },
 {
 "id": "modelo-B-044",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ)",
@@ -3192,6 +3740,9 @@
 },
 {
 "id": "modelo-B-045",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Jorge Braz",
 "cargo": "Deputado (Republicanos-RJ), presidente da Comissão de Defesa do Consumidor",
@@ -3205,6 +3756,9 @@
 },
 {
 "id": "modelo-B-046",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Paula Farani",
 "cargo": "Diretora de Política de Concorrência para América Latina da Meta",
@@ -3218,6 +3772,9 @@
 },
 {
 "id": "modelo-B-047",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -3231,6 +3788,9 @@
 },
 {
 "id": "modelo-B-048",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Maria do Carmo Ribeiro",
 "cargo": "Associação Brasileira de Autismo",
@@ -3244,6 +3804,9 @@
 },
 {
 "id": "modelo-B-049",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Laís Abramo",
 "cargo": "Secretária da Política Nacional de Cuidados e Família do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
@@ -3257,6 +3820,9 @@
 },
 {
 "id": "modelo-B-050",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Ricardo Lewandowski",
 "cargo": "Ministro da Justiça",
@@ -3270,6 +3836,9 @@
 },
 {
 "id": "modelo-B-051",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Antonio Brito",
 "cargo": "Deputado (PSD-BA) e presidente da Comissão Externa da Câmara dos Deputados para o Enfrentamento da Tuberculose",
@@ -3283,6 +3852,9 @@
 },
 {
 "id": "modelo-B-052",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Paula Farani",
 "cargo": "Diretora de Política de Concorrência para América Latina da Meta",
@@ -3296,6 +3868,9 @@
 },
 {
 "id": "modelo-B-053",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Andreia Siqueira",
 "cargo": "Deputada (MDB-PA)",
@@ -3308,20 +3883,10 @@
 "n_windows": 12
 },
 {
-"id": "modelo-B-054",
-"model": "modelo-B",
-"participant": "Márcio Tavares",
-"cargo": "Secretário-executivo do Ministério da Cultura",
-"opinion": "Márcio Tavares considera a indústria do audiovisual uma indústria estratégica para o Brasil.",
-"windows": [
-"que emperra o desenvolvimento da indústria, emperra o desenvolvimento de estúdios no Brasil. Temos trabalhado, sobretudo no âmbito da receita, numa discussão bastante direcionada para que consigamos ter um ambiente mais favorável e condições de que a infraestrutura para o desenvolvimento do audiovisual brasileiro possa prosperar. Ao mesmo tempo, precisamos também investir bastante em formação técnica de base para que tenhamos um aumento da infraestrutura equivalente com o desenvolvimento do ambiente de formação de base. Então, temos trabalhado nisso. Há um grupo técnico da SAV com o Ministério da Educação, sobretudo na área de educação técnica e tecnológica, para que",
-"Obrigado, Deputada Jandira. Eu já agradeço à senhora pelo convite e vou tentar ser breve, até porque a Dani já falou bastante a respeito do Ministério da Cultura. Eu quero cumprimentá-la não só pela realização da audiência, mas também por todo o trabalho que a senhora feito pelo audiovisual brasileiro e pela cultura brasileira aqui no Parlamento, e quero cumprimentar os colegas do Ministério, os colegas da ANCINE e todos os realizadores de audiovisual que estão aqui presentes na audiência. É extremamente importante que possamos discutir o tema da indústria audiovisual, que é uma indústria estratégica para o País, de",
-"dos BRICS da qual eu participei, na África do Sul. Também já levamos a sugestão da criação de uma linha de financiamento específica na linha de produção de economia criativa que envolve o audiovisual para o banco dos BRICS.É uma discussão que já envolveu também a Presidente Dilma Rousseff, que hoje preside o banco dos BRICS. Nós fechamos alguns acordos internacionais importantes com a China, com Portugal e retomamos a nossa relação com a CPLP, que também é estratégica. A nossa produção nos países de língua portuguesa é uma janela bastante importante de difusão do audiovisual brasileiro. Nós estamos trabalhando"
-],
-"n_windows": 14
-},
-{
 "id": "modelo-B-055",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Pedro Paulo",
 "cargo": "Deputado (PSD-RJ), relator da matéria",
@@ -3334,20 +3899,10 @@
 "n_windows": 26
 },
 {
-"id": "modelo-B-056",
-"model": "modelo-B",
-"participant": "Amaro Neto",
-"cargo": "Deputado (Republicanos-ES)",
-"opinion": "Amaro Neto destacou a contribuição da ANATEL ao longo dos 26 anos, afirmando que a agência tem sido crucial na expansão da infraestrutura de telecomunicações no Brasil.",
-"windows": [
-"ANATEL ao longo dos 26 anos na expansão da infraestrutura de telecomunicações em todo o Brasil, a marca da transformação e da superação, como já definiu o nosso Presidente Baigorri, em outras palestras. Com a evolução da tecnologia, a agência teve de se adaptar e responder aos desafios de um setor em constante transformação. A atuação da ANATEL permite que mais brasileiros tenham acesso a serviços de dados e voz, reduzindo a exclusão digital e promovendo uma inclusão social. Hoje, grande parte da população tem acesso à Internet banda larga, o que tem um impacto significativo no acesso à educação,",
-"ANATEL, representantes do setor de telecomunicações que nos honram com as suas presenças aqui no plenário e prezados telespectadores que nos acompanham nos canais de comunicação da nossa Casa, boa tarde a todos. Antes de qualquer coisa, gostaria de iniciar com uma saudação especial pelos 26 anos da ANATEL. Em nome dos membros desta Comissão, transmito ao Presidente e a todos os servidores da agência os parabéns pelo aniversário. Que a ANATEL continue a desempenhar esse papel crucial na regulamentação e supervisão de um setor que é peça-chave do desenvolvimento econômico e social no País. É inegável a contribuição da",
-"se dedicam ao tema das comunicações, com certeza. Que tenhamos uma ótima tarde e uma excelente reunião aqui na nossa Comissão, com a presença da ANATEL, que falará um pouco do trabalho que já foi desenvolvido este ano e que será desenvolvido nos próximos anos. Obrigado a todos. Agora eu concedo a palavra, para sua exposição, ao Sr. Carlos Manuel Baigorri, Presidente da Agência Nacional de Telecomunicações, que é um grande parceiro e amigo da nossa Comissão e que, mais uma vez, faz-se presente. Na primeira vez em que ele esteve aqui, tivemos que adiar a nossa conversa, mas hoje"
-],
-"n_windows": 18
-},
-{
 "id": "modelo-B-057",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Erika Hilton",
 "cargo": "Deputada (Psol-SP)",
@@ -3361,6 +3916,9 @@
 },
 {
 "id": "modelo-B-058",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Paulo Teixeira",
 "cargo": "Deputado (PT-SP)",
@@ -3374,6 +3932,9 @@
 },
 {
 "id": "modelo-B-059",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Célia Xakriabá",
 "cargo": "Deputada, presidente da Comissão da Amazônia e de Povos Originários e Tradicionais (Psol-MG)",
@@ -3387,6 +3948,9 @@
 },
 {
 "id": "modelo-B-060",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Assimakis Komminos",
 "cargo": "Advogado especialista em mercados e serviços digitais do escritório de advocacia White & Case",
@@ -3400,6 +3964,9 @@
 },
 {
 "id": "modelo-B-061",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Arthur de Almeida Medeiros",
 "cargo": "Coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde",
@@ -3413,6 +3980,9 @@
 },
 {
 "id": "modelo-B-062",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Daniel Facchini",
 "cargo": "Presidente da Associação Brasileira de Quiropraxia",
@@ -3426,6 +3996,9 @@
 },
 {
 "id": "modelo-B-063",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Leopoldo Muraro",
 "cargo": "Consultor jurídico do Ministério da Ciência e Tecnologia",
@@ -3439,6 +4012,9 @@
 },
 {
 "id": "modelo-B-064",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Rafael Baldi",
 "cargo": "Diretor adjunto de Produtos da Federação Brasileira de Bancos (Febraban)",
@@ -3452,6 +4028,9 @@
 },
 {
 "id": "modelo-B-065",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Pedro Estevam",
 "cargo": "Professor de Direito no mestrado e doutorado da PUC-SP",
@@ -3464,20 +4043,10 @@
 "n_windows": 30
 },
 {
-"id": "modelo-B-066",
-"model": "modelo-B",
-"participant": "Patrícia Gomes",
-"cargo": "Diretora-executiva de mercado externo da Associação Brasileira da Indústria de Máquinas e Equipamentos (Abimaq)",
-"opinion": "A reforma tributária é uma questão inicial que deve ser tratada para concorrer com outros setores econômicos internacionais.",
-"windows": [
-"pífio. Então precisamos, sim, tratar a questão da reforma tributária para que possamos ser competitivos, concorrer aqui com os bens importados, com outras economias que são referências na questão industrial, mas também para podermos buscar novos mercados, competir no mercado internacional. Essa questão tributária é uma agenda inicial que deve ser tratada para trazer a tão esperada competitividade do setor industrial. Quanto à política industrial, como o Marcos comentou, temos visto grandes economias — Estados Unidos, a própria China e a União Europeia — com políticas muito agressivas no campo industrial, até ligadas a questão da transição energética, da economia",
-"precisamos de um ambiente de negócios seguro. Precisamos tratar dessa questão da reforma tributária para que a nossa indústria possa, sim, ser competitiva, concorrer aqui, buscar mercados. Nós precisamos ter políticas de financiamento e garantias para produção, para venda, para exportação, garantia para que possamos correr riscos, logicamente, comercial e político. A nossa indústria vende muito para países que têm o risco político muito elevado, e sem o Estado as seguradoras privadas não conseguem atuar nessa área. Então, essa é uma discussão importante que passa aqui por esta Casa. Nós precisamos atuar também na questão da própria reforma administrativa. Essa",
-"— é a questão da reforma tributária. Esse é um ponto que precisa, logicamente, ser resolvido, para atenuar os impactos que essa agenda traz para o setor produtivo, especialmente para a indústria, que é o setor mais onerado, mas que possa trazer competitividade para o setor. Não é possível fazer uma política industrial sem atacar, lógico, concomitante e primeiro, a questão da reforma tributária. Hoje, qualquer política industrial que seja colocada para o setor industrial de forma horizontal ou de forma vertical em setores, sem tratar a questão tributária, vai ser inócua ou vai ter um resultado que pode ser"
-],
-"n_windows": 20
-},
-{
 "id": "modelo-B-067",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ) e presidente da Comissão de Legislação Participativa",
@@ -3491,6 +4060,9 @@
 },
 {
 "id": "modelo-B-068",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Dr. Zacharias Calil",
 "cargo": "Deputado (União-GO)",
@@ -3504,6 +4076,9 @@
 },
 {
 "id": "modelo-B-069",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Célia Xakriabá",
 "cargo": "Deputada, presidente da Comissão da Amazônia e de Povos Originários e Tradicionais (Psol-MG)",
@@ -3517,6 +4092,9 @@
 },
 {
 "id": "modelo-B-070",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -3530,6 +4108,9 @@
 },
 {
 "id": "modelo-B-071",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Alice Portugal",
 "cargo": "Deputada (PCdoB-BA)",
@@ -3543,6 +4124,9 @@
 },
 {
 "id": "modelo-B-072",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Laís Abramo",
 "cargo": "Secretária da Política Nacional de Cuidados e Família do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
@@ -3556,6 +4140,9 @@
 },
 {
 "id": "modelo-B-073",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Marcio Luiz Coelho de Freitas",
 "cargo": "Conselheiro do Conselho Nacional de Justiça (CNJ)",
@@ -3569,6 +4156,9 @@
 },
 {
 "id": "modelo-B-074",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária nacional dos Direitos das Pessoas com Deficiência do Ministério dos Direitos Humanos",
@@ -3581,20 +4171,10 @@
 "n_windows": 23
 },
 {
-"id": "modelo-B-075",
-"model": "modelo-B",
-"participant": "Kenio Lima",
-"cargo": "Coordenador-geral de Política de Envelhecimento Ativo e Saudável e Desenho Universal do Ministério dos Direitos Humanos e da Cidadania",
-"opinion": "Ele afirma que o cuidado é uma lógica de direito, que deve ser regulado, especialmente para pessoas idosas.",
-"windows": [
-"discussão de trabalho, que acho que é o motivo que nos traz aqui hoje e, também, avançando essa lógica como um todo, uma lógica de direito. Hoje, claramente, já existe uma discussão em nível internacional acerca do direito do cuidado em relação a cuidar, a ser cuidado e a autocuidar-se. Precisamos avançar no sentido dessa lógica de entender a questão do cuidado como um direito. Pensando nisso, quando trazemos o foco para as pessoas idosas, obviamente, hoje, no Brasil, o último dado que temos é relacionado, por exemplo, a pessoas idosas que estiveram acamadas nas duas últimas semanas.Temos um dado",
-"lógica do cuidado é uma coisa que está presente na vida de todas as pessoas. Como já falamos, ele passa da necessidade para a discussão do trabalho, discussão da economia do cuidado, para agora uma discussão de direito e, se é direito, precisamos entender essa dinâmica como um todo e pensar especificamente que a solicitação, por exemplo, de um certificado de antecedentes criminais pode, de nenhuma maneira, resolver o problema, porque temos um contingente de pessoas que estão na informalidade. Os dados mais recentes sobre a América Latina trazem que 50% dos trabalhadores que estão na população economicamente ativa, que",
-"Precisamos repensar e ressignificar como nós, que fazemos os diversos poderes, podemos atuar para entender essa dinâmica do envelhecimento, trabalhar com a lógica da educação para o envelhecimento, de práticas intergeracionais que consigam aproximar... Também é preciso pensar numa rede de proteção para a vida da pessoa idosa, desde a promoção da cultura da paz até a prevenção das violações de um modo geral. Temos condições de, minimamente, iniciar a constituição dessa rede em parceria com vários Ministérios — temos tentado —, com os defensores de direitos das pessoas idosas, com Ministério Público e com a Justiça, de modo geral."
-],
-"n_windows": 19
-},
-{
 "id": "modelo-B-076",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Monize Marques",
 "cargo": "Juíza, coordenadora da Central Judicial do Idoso no Distrito Federal",
@@ -3607,20 +4187,10 @@
 "n_windows": 22
 },
 {
-"id": "modelo-B-077",
-"model": "modelo-B",
-"participant": "Paulo Illes",
-"cargo": "Coordenador-geral de Política Migratória do Ministério da Justiça",
-"opinion": "Paulo Illes destaca a ampliação da liberdade de circulação, com base em acordos do MERCOSUL e com a Comunidade dos Países de Língua Portuguesa.",
-"windows": [
-"para reunir suas famílias. É um direito que deve ser garantido a essa população. Por outro lado, com a intenção também de aprofundar o livre trânsito, o direito à liberdade de circulação e de instalação, nós ampliamos a visão que se tem do acordo do MERCOSUL. Temos um acordo entre o MERCOSUL e os países associados que garante a liberdade de circulação no continente, bem como a autorização de residência. E nós regulamentamos Acordo sobre a Mobilidade entre os Estados-Membros da Comunidade dos Países de Língua Portuguesa — CPLP. Eu levantei os dados agora de manhã: 315 imigrantes de países",
-"Na questão dos haitianos, tínhamos mais de 5 mil processos judicializados. A Portaria Interministerial nº 38/2023 muda totalmente a realidade, hoje nós temos mais de 30 mil pedidos de reunificação familiar de migrantes haitianos. Ao mesmo tempo em que nos deparamos com a construção da política migratória, com a equipe que temos disponível para trabalhar, que é a mesma equipe que cuidava dos processos burocráticos, nós temos o desafio de ir também devolvendo para a população direitos, como, por exemplo, as portarias que eu mencionei aqui da CPLP. Hoje nós já temos 330 imigrantes dos países lusófonos que já aderiram",
-"dezembro, outra em São Leopoldo. Esperamos que a maioria dos Estados possam realizar suas conferências estaduais no início do ano que vem. Justamente essa COMIGRAR terá como objetivo estabelecer as bases para a construção de um plano nacional de integração de migrantes, refugiados e apátridas, que tem como uma das principais ações justamente a criação e o referenciamento dos centros de atendimento a migrantes. Eu vi aqui que o requerimento desta audiência fala dos centros de referência. Eu tive a oportunidade, Deputada, no Governo Fernando Haddad, em São Paulo, de criarmos o primeiro Centro de Referência e Atendimento para Imigrantes,"
-],
-"n_windows": 17
-},
-{
 "id": "modelo-B-078",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Joana de Vilhena Novaes",
 "cargo": "Psicóloga e pesquisadora da PUC-Rio",
@@ -3634,6 +4204,9 @@
 },
 {
 "id": "modelo-B-079",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Marcel van Hattem",
 "cargo": "Deputado (Novo-RS)",
@@ -3647,6 +4220,9 @@
 },
 {
 "id": "modelo-B-080",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Tales Domingos Vieira",
 "cargo": "Representante da Emater Minas",
@@ -3660,6 +4236,9 @@
 },
 {
 "id": "modelo-B-081",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Lídice da Mata",
 "cargo": "Deputada (PSB-BA)",
@@ -3673,6 +4252,9 @@
 },
 {
 "id": "modelo-B-082",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "José Bartolomeu",
 "cargo": "Presidente da ViaBahia",
@@ -3686,6 +4268,9 @@
 },
 {
 "id": "modelo-B-083",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luizianne Lins",
 "cargo": "Deputada (PT-CE)",
@@ -3699,6 +4284,9 @@
 },
 {
 "id": "modelo-B-084",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Dr. Zacharias Calil",
 "cargo": "Deputado (União-GO)",
@@ -3712,6 +4300,9 @@
 },
 {
 "id": "modelo-B-085",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Bruno Ziller",
 "cargo": "Representante do Instituto Cactus",
@@ -3725,6 +4316,9 @@
 },
 {
 "id": "modelo-B-086",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Bruno Ziller",
 "cargo": "Representante do Instituto Cactus",
@@ -3738,6 +4332,9 @@
 },
 {
 "id": "modelo-B-087",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária Nacional dos Direitos da Pessoa com Deficiência",
@@ -3751,6 +4348,9 @@
 },
 {
 "id": "modelo-B-088",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Rafael Baldi",
 "cargo": "Diretor adjunto de Produtos da Federação Brasileira de Bancos (Febraban)",
@@ -3764,6 +4364,9 @@
 },
 {
 "id": "modelo-B-089",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Tales Domingos Vieira",
 "cargo": "Representante da Emater Minas",
@@ -3777,6 +4380,9 @@
 },
 {
 "id": "modelo-B-090",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Daniel Facchini",
 "cargo": "Presidente da Associação Brasileira de Quiropraxia",
@@ -3790,6 +4396,9 @@
 },
 {
 "id": "modelo-B-091",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jorge Nascimento",
 "cargo": "Presidente-executivo da Associação Nacional dos Fabricantes Produtos Eletroeletrônicos (Eletros)",
@@ -3803,6 +4412,9 @@
 },
 {
 "id": "modelo-B-092",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Diogo Alves",
 "cargo": "Oficial nacional de Controle de Tabaco e Impostos Saudáveis da Organização Mundial da Saúde (OMS) no Brasil",
@@ -3816,6 +4428,9 @@
 },
 {
 "id": "modelo-B-093",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Márcia Cruz",
 "cargo": "Coordenadora do Centro de Paramiloidose da Universidade Federal do Rio de Janeiro",
@@ -3829,6 +4444,9 @@
 },
 {
 "id": "modelo-B-094",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Talíria Petrone",
 "cargo": "Deputada (Psol-RJ)",
@@ -3842,6 +4460,9 @@
 },
 {
 "id": "modelo-B-095",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Nilma Lino",
 "cargo": "Ex-ministra da Mulher, Família e Direitos Humanos",
@@ -3855,6 +4476,9 @@
 },
 {
 "id": "modelo-B-096",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Nísia Trindade",
 "cargo": "Ministra da Saúde",
@@ -3868,6 +4492,9 @@
 },
 {
 "id": "modelo-B-097",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Aristides Cavalcante Neto",
 "cargo": "Chefe adjunto do Departamento de Tecnologia da Informação do Banco Central",
@@ -3881,6 +4508,9 @@
 },
 {
 "id": "modelo-B-098",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Gilson Daniel",
 "cargo": "Deputado (PODE-ES)",
@@ -3894,6 +4524,9 @@
 },
 {
 "id": "modelo-B-099",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Sara Casagrande",
 "cargo": "Neurologista",
@@ -3907,6 +4540,9 @@
 },
 {
 "id": "modelo-B-100",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Luciana Paula Confort",
 "cargo": "Juíza, vice-presidente da Associação Nacional dos Magistrados da Justiça do Trabalho (Anamatra)",
@@ -3920,6 +4556,9 @@
 },
 {
 "id": "modelo-B-101",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bruno Monteiro Portela",
 "cargo": "Procurador Federal da Advocacia-Geral da União (AGU)",
@@ -3933,6 +4572,9 @@
 },
 {
 "id": "modelo-B-102",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jader Barbalho Filho",
 "cargo": "Ministro das Cidades",
@@ -3946,6 +4588,9 @@
 },
 {
 "id": "modelo-B-103",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Geísa Boaventura",
 "cargo": "Coordenadora do Fórum de Pró-reitores de Extensão dos Institutos Federais de Educação Profissional e Tecnológica",
@@ -3959,6 +4604,9 @@
 },
 {
 "id": "modelo-B-104",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Ricardo Lewandowski",
 "cargo": "Ministro da Justiça",
@@ -3972,6 +4620,9 @@
 },
 {
 "id": "modelo-B-105",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Rodrigo Saraiva",
 "cargo": "Professor da Fundação Escola Superior de Advocacia do Ceará e da Pós-Graduação da Universidade de Fortaleza",
@@ -3985,6 +4636,9 @@
 },
 {
 "id": "modelo-B-106",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Monica Andreis",
 "cargo": "Diretora-geral da ONG Aliança de Controle do Tabagismo",
@@ -3998,6 +4652,9 @@
 },
 {
 "id": "modelo-B-107",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Sandra Ramalhoso",
 "cargo": "Presidente da Associação G-14",
@@ -4011,6 +4668,9 @@
 },
 {
 "id": "modelo-B-108",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Mauro Silva",
 "cargo": "Presidente da Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil (Unafisco)",
@@ -4024,6 +4684,9 @@
 },
 {
 "id": "modelo-B-109",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Alexandre Araújo da Costa",
 "cargo": "Físico e professor da Universidade Federal do Ceará",
@@ -4036,20 +4699,10 @@
 "n_windows": 36
 },
 {
-"id": "modelo-B-110",
-"model": "modelo-B",
-"participant": "Roberto Muniz",
-"cargo": "Representante do Fórum Nacional das Entidades Representativas dos Servidores das Carreiras de Ciência e Tecnologia",
-"opinion": "Muniz defende que a ciência e tecnologia são essenciais para a independência nacional e a inovação, não para a compra de tecnologias estrangeiras.",
-"windows": [
-"em ciência e tecnologia e fazer inovação, para não ficar refém dos mercados internacionais. Nós não podemos continuar comprando vacina. Nós temos que gerar vacina. Nós não precisamos e não podemos ficar importandochip. Vocês sabem que hoje a capacidade de telecomunicações dos nossos celulares depende dechip, mas nós não produzimos umchip, embora tenhamos, no passado, investido em uma empresa pública para produzirchip, o CEITEC, o que seria um grande passo, porque, na América Latina e nos países do sul, excetuando talvez a Índia e a China, ninguém produzchip. O CEITEC era uma aposta de uma solução criativa que geraria futuro.",
-"gera mais coisas ainda para o futuro, porque forma gente, porque gera conhecimento, que se desdobra em tecnologia. Essa tecnologia se transforma em inovação. Essa inovação melhora a qualidade de vida da população e faz elevar um país, uma nação, como os dados que ele apresentou. Ora, retirar investimentos dessa área, da ciência e tecnologia, como previsto em lei, para transformar caminhão em sucata não me parece uma solução portadora de futuro.Nós estamos deixando de investir em áreas prioritárias, que formam gente, que constroem infraestrutura, que geram soluções, para transformar caminhão em sucata.Vamos ter uma solução? Vamos ter uma solução",
-"e Tecnologia, mas não só no Ministério da Ciência e Tecnologia. Estamos presentes, enquanto servidores da área de ciência e tecnologia, em nove Ministérios, como, por exemplo, o Ministério da Saúde, na Secretaria de Ciência e Tecnologia do Ministério da Saúde. Nós estamos presentes no Ministério da Defesa, porque esse Ministério também executa pesquisa, ciência e tecnologia.Nós estamos em diversos Ministérios, além dos institutos do Ministério da Ciência e Tecnologia, como, por exemplo, o INPE — Instituto Nacional de Pesquisas Espaciais, a Comissão Nacional de Energia Nuclear, o Instituto Nacional de Pesquisas da Amazônia — INPA e tantos outros, além"
-],
-"n_windows": 17
-},
-{
 "id": "modelo-B-111",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Jorge Braz",
 "cargo": "Deputado (Republicanos-RJ), presidente da Comissão de Defesa do Consumidor",
@@ -4063,6 +4716,9 @@
 },
 {
 "id": "modelo-B-112",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Gilberto Martins",
 "cargo": "Gerente de Assuntos Técnicos da Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea)",
@@ -4076,6 +4732,9 @@
 },
 {
 "id": "modelo-B-113",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Ismael Alexandrino",
 "cargo": "Deputado (PSD-GO), médico e ex-secretário de saúde",
@@ -4089,6 +4748,9 @@
 },
 {
 "id": "modelo-B-114",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Luciana Paula Confort",
 "cargo": "Juíza, vice-presidente da Associação Nacional dos Magistrados da Justiça do Trabalho (Anamatra)",
@@ -4102,6 +4764,9 @@
 },
 {
 "id": "modelo-B-115",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Celio Moura",
 "cargo": "Deputado (PT-TO)",
@@ -4114,20 +4779,10 @@
 "n_windows": 17
 },
 {
-"id": "modelo-B-116",
-"model": "modelo-B",
-"participant": "Frederico Teles",
-"cargo": "Diretor do Departamento de Políticas Setoriais do Ministério de Minas e Energia (MME)",
-"opinion": "Teles afirma que a indefinição das condições de renovação aumenta o custo de capital das distribuidoras por meio do uso excessivo de debêntures de curto prazo.",
-"windows": [
-"sem prejuízo de que o Poder Executivo formalize essas regras, por meio de diretrizes, em decreto. Lembro uma questão que foi levantada pelo representante da ABRADEE. Nas concessões de distribuição, a variação da parte na tarifa foi bem menor do que o IPCA e o IGPM. Nós entendemos que o modelo, pelo menos em relação à remuneração e ao consumidor, tem sido benéfico. Essa indefinição, considerando a forma como estamos tratando, tem causado aumento de custo de capital para as distribuidoras. Nós analisamos o balanço de algumas distribuidoras e vimos questões sobre as debêntures que elas emitiram, seja de curto",
-"prazo, seja de longo prazo. As de longo prazo têm um custo de capital muito menor do que as de curto prazo. Como elas não têm a definição dos seus critérios, estão sendo obrigadas a emitir muito mais debêntures de curto prazo, o que traz um movimento natural de aumento de custo de capital para o segmento como um todo. Em especial, com relação aos PLs, nós entendemos que o Ministério de Minas e Energia pode avançar bastante na discussão, caso seja necessário nós abarcarmos todos esses pontos que já foram levantados pelos meus colegas sobre os PLs 444, 454,",
-"456 e, principalmente, o PL 4.831, que trata da renovação das concessões. Muito obrigado. Boa tarde a todos. Eu só gostaria de agradecer, em nome do Ministério. Depois da brilhante fala do Diretor Sandoval fica difícil me manifestar. Só para recapitular um ponto levantado pelo nobre Deputado sobre a questão da renovação de forma tácita. Nós esperamos, de fato, o estabelecimento de critérios mais rígidos para que as distribuidoras forneçam serviços de qualidade ao consumidor de energia elétrica."
-],
-"n_windows": 11
-},
-{
 "id": "modelo-B-117",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Pedro Paulo",
 "cargo": "Deputado (PSD-RJ), relator da matéria",
@@ -4141,6 +4796,9 @@
 },
 {
 "id": "modelo-B-118",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Fernando Peregrino",
 "cargo": "Presidente do Conselho Nacional das Fundações de Apoio às Instituições de Ensino Superior e de Pesquisa Científica e Tecnológica (Confies)",
@@ -4154,6 +4812,9 @@
 },
 {
 "id": "modelo-B-119",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Filipe Martins",
 "cargo": "Deputado (PL-TO)",
@@ -4167,6 +4828,9 @@
 },
 {
 "id": "modelo-B-120",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária nacional dos Direitos das Pessoas com Deficiência do Ministério dos Direitos Humanos",
@@ -4180,6 +4844,9 @@
 },
 {
 "id": "modelo-B-121",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Rafaela Reis de Oliveira",
 "cargo": "Dirigente da Associação Brasileira de Ensino de Ciências Sociais (ABECS)",
@@ -4193,6 +4860,9 @@
 },
 {
 "id": "modelo-B-122",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Maria do Carmo Ribeiro",
 "cargo": "Associação Brasileira de Autismo",
@@ -4206,6 +4876,9 @@
 },
 {
 "id": "modelo-B-123",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Murillo Barbosa",
 "cargo": "Diretor-presidente da Associação de Terminais Portuários Privados",
@@ -4219,6 +4892,9 @@
 },
 {
 "id": "modelo-B-124",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Anna Paula Feminella",
 "cargo": "Secretária Nacional dos Direitos da Pessoa com Deficiência",
@@ -4232,6 +4908,9 @@
 },
 {
 "id": "modelo-B-125",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Daniela Cerqueira",
 "cargo": "Representante do Ministério da Saúde",
@@ -4245,6 +4924,9 @@
 },
 {
 "id": "modelo-B-126",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Lara Simielli",
 "cargo": "Professora da Fundação Getúlio Vargas e uma das autoras do estudo",
@@ -4258,6 +4940,9 @@
 },
 {
 "id": "modelo-B-127",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Prof. Paulo Fernando",
 "cargo": "Deputado (Republicanos-DF)",
@@ -4271,6 +4956,9 @@
 },
 {
 "id": "modelo-B-128",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Erika Kokay",
 "cargo": "Deputada (PT-DF)",
@@ -4284,6 +4972,9 @@
 },
 {
 "id": "modelo-B-129",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Sara Casagrande",
 "cargo": "Neurologista",
@@ -4297,6 +4988,9 @@
 },
 {
 "id": "modelo-B-130",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Aliel Machado",
 "cargo": "Presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado (PV-PR)",
@@ -4310,6 +5004,9 @@
 },
 {
 "id": "modelo-B-131",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bebeto",
 "cargo": "Deputado (PP-RJ)",
@@ -4322,20 +5019,10 @@
 "n_windows": 7
 },
 {
-"id": "modelo-B-132",
-"model": "modelo-B",
-"participant": "Kenio Lima",
-"cargo": "Coordenador-geral de Política de Envelhecimento Ativo e Saudável e Desenho Universal do Ministério dos Direitos Humanos e da Cidadania",
-"opinion": "Lima defende a profissionalização do trabalho de cuidador e a educação para o envelhecimento como fundamentais para combater o idadismo institucional.",
-"windows": [
-"Dois pontos são fundamentais, de acordo com a literatura e com evidências científicas, para fazer esse combate. O primeiro ponto é a educação para o envelhecimento nos diversos níveis, que não existe. O segundo diz respeito a práticas intergeracionais presenciais com as pessoas. Não adianta combater violência somente pensando em criminalizá-la. É preciso trabalhar fortemente antes de todo o processo. A Comissão de Defesa dos Direitos da Pessoa Idosa, ano passado, debatia o aumento em um terço das penas para crimes contra pessoa idosa quando for exercida por cuidador ou pessoa no exercício da profissão. Na prática, precisamos trabalhar fortemente",
-"essa discussão para poder entender, de fato, essa nossa solicitação. Eu acho que, para começarmos o debate, é importante saber como pensar essas questões. Acho que dois pontos são fundamentais neste debate: um, a questão da profissionalização do trabalho de cuidador; dois, esse grande contingente que temos de pessoas idosas que vão necessitar de cuidado. Portanto, precisamos pensar num sistema de cuidados que dê cabo a essa demanda. Eu costumo sempre dizer — eu sou pesquisador na área do envelhecimento há muito tempo — que nem que haja umbaby boomagora iremos reverter a condição demográfica do nosso País. O Brasil",
-"Precisamos repensar e ressignificar como nós, que fazemos os diversos poderes, podemos atuar para entender essa dinâmica do envelhecimento, trabalhar com a lógica da educação para o envelhecimento, de práticas intergeracionais que consigam aproximar... Também é preciso pensar numa rede de proteção para a vida da pessoa idosa, desde a promoção da cultura da paz até a prevenção das violações de um modo geral. Temos condições de, minimamente, iniciar a constituição dessa rede em parceria com vários Ministérios — temos tentado —, com os defensores de direitos das pessoas idosas, com Ministério Público e com a Justiça, de modo geral."
-],
-"n_windows": 19
-},
-{
 "id": "modelo-B-133",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Gilson Daniel",
 "cargo": "Deputado (PODE-ES)",
@@ -4349,6 +5036,9 @@
 },
 {
 "id": "modelo-B-134",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Lídice da Mata",
 "cargo": "Deputada (PSB-BA)",
@@ -4362,6 +5052,9 @@
 },
 {
 "id": "modelo-B-135",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Luciano Valentim Rechiuti",
 "cargo": "Brigadeiro engenheiro e chefe do Subdepartamento Técnico do Departamento de Ciência e Tecnologia Aeroespacial da Aeronáutica",
@@ -4375,6 +5068,9 @@
 },
 {
 "id": "modelo-B-136",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Joana de Vilhena Novaes",
 "cargo": "Psicóloga e pesquisadora da PUC-Rio",
@@ -4388,6 +5084,9 @@
 },
 {
 "id": "modelo-B-137",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -4401,6 +5100,9 @@
 },
 {
 "id": "modelo-B-138",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Hugo Leal",
 "cargo": "Deputado (PSD-RJ)",
@@ -4414,6 +5116,9 @@
 },
 {
 "id": "modelo-B-139",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Coronel Meira",
 "cargo": "Deputado (PL-PE) e relator das propostas na Comissão de Administração e Serviço Público",
@@ -4427,6 +5132,9 @@
 },
 {
 "id": "modelo-B-140",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Krisztian Katona",
 "cargo": "Vice-presidente de concorrência global e política regulatória da Computer and Communications Industry Association (CCIA)",
@@ -4440,6 +5148,9 @@
 },
 {
 "id": "modelo-B-141",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Krisztian Katona",
 "cargo": "Vice-presidente de concorrência global e política regulatória da Computer and Communications Industry Association (CCIA)",
@@ -4453,6 +5164,9 @@
 },
 {
 "id": "modelo-B-142",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Sandra Ramalhoso",
 "cargo": "Presidente da Associação G-14",
@@ -4466,6 +5180,9 @@
 },
 {
 "id": "modelo-B-143",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jorge Solla",
 "cargo": "Deputado (PT-BA)",
@@ -4478,20 +5195,10 @@
 "n_windows": 35
 },
 {
-"id": "modelo-B-144",
-"model": "modelo-B",
-"participant": "Luizianne Lins",
-"cargo": "Deputada e presidente da Comissão de Direitos Humanos",
-"opinion": "Luizianne Lins agradece aos convidados e propõe encaminhamentos para as autoridades competentes.",
-"windows": [
-"para caminharmos para o fim desta reunião e vermos os encaminhamentos que teremos para o futuro. Tem a palavra o Sr. Tomás Alejandro Guzmán, que dispõe de 3 minutos para suas ponderações. Nós temos mais um inscrito. Depois, passaremos a palavra aos membros da Mesa que quiserem fazer considerações e sugestões. O procedimento natural da audiência pública, a partir do cruzamento das informações que nos chegam, sobre as diversas óticas e perspectivas, é podermos encaminhar um pedido de audiência pública às autoridades competentes ou criarmos um canal nesta Comissão de Direitos Humanos. É importante que deixem oe-mail, porque nós vamos",
-"presença. Agradeço ao Ministro Márcio França, que teve sensibilidade e um olhar para colaborar com esta solução. Certamente, eu acho que, depois desta rodada de audiências públicas, devemos solicitar outras, com estas autoridades, até com o Ministro Márcio França, que, de certa forma, estão ligadas a esta questão, para oferecerem alguma ajuda no que diz respeito às políticas públicas. Antes de ouvirmos a Sra. Lutiana Valadares, passo a palavra à Sra. Marina Rongo, que dispõe de 3 minutos. Obrigada, Marina Rongo. Agora vamos passar a palavra para a última fala, que é da Lutiana Valadares, que vai encerrar a nossa",
-"e sugestões com base no que foi dito aqui. Tudo aqui está sendo taquigrafado e gravado, e normalmente os encaminhamentos são retirados a partir das falas. Para facilitarmos os próximos passos e ficarmos em contato, eu vou lhes enviar este questionário previamente estruturado, para que possamos ter uma dimensão do que queremos ouvir de cada um, sobre o que os senhores propõem a partir de suas vivências e de sua atuação na área de refugiados no Brasil. Passo a palavra à Sra. Fernanda Rosas, que aqui representa o Ministro Márcio França, do Ministério de Portos e Aeroportos. Obrigada, Fernanda, pela"
-],
-"n_windows": 19
-},
-{
 "id": "modelo-B-145",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Marcel van Hattem",
 "cargo": "Deputado (Novo-RS)",
@@ -4505,6 +5212,9 @@
 },
 {
 "id": "modelo-B-146",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Carlos Manuel Baigorri",
 "cargo": "Presidente da Agência Nacional de Telecomunicações (Anatel)",
@@ -4518,6 +5228,9 @@
 },
 {
 "id": "modelo-B-147",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Mauro Silva",
 "cargo": "Presidente da Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil (Unafisco)",
@@ -4531,6 +5244,9 @@
 },
 {
 "id": "modelo-B-148",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Nísia Trindade",
 "cargo": "Ministra da Saúde",
@@ -4543,20 +5259,10 @@
 "n_windows": 34
 },
 {
-"id": "modelo-B-149",
-"model": "modelo-B",
-"participant": "Delegado Paulo Bilynskyj",
-"cargo": "Deputado (PL-SP)",
-"opinion": "Ele critica a exigência de calibres, alegando que é desnecessária e desnecessariamente desestimula a liberdade de posse de armas.",
-"windows": [
-"grande investimento e que possuem armas de fogo de diversos calibres tenham que participar de inúmeras competições durante o ano simplesmente para manter os seus armamentos. Essa exigência foi criada, obviamente, para desestimular a liberdade de aquisição de calibres. Isso é algo desnecessário. Vamos alterar esse texto para \"calibres permitidos e restritos\". Assim já se dá uma sinalização muito positiva de compreensão da situação do tiro esportivo no Brasil. Por último em relação ao decreto, Ministro, a questão do calibre 9 milímetros. Se V.Exa. não dispõe de nenhum segurança que utiliza um calibre menor que o 9 milímetros, como o",
-"abstrato. O senhor está numa Pasta do mundo real. Os seus auxiliares policiais viveram, em algum ponto da carreira, o mundo real e é nele que temos que basear as nossas decisões. Então, o primeiro ponto que eu questiono é sobre essa distância de 1 quilômetro, que é descabida e vai simplesmente forçar o fechamento dos estabelecimentos, causando um prejuízo gigantesco e a impossibilidade de mais de 1 milhão de brasileiros continuarem a prática do tiro esportivo. Um segundo ponto do decreto, Sr. Ministro, é a famosa habitualidade por calibres. Essa outra exigência faz com que pessoas que fizeram um",
-"uma fuga. Fui processado administrativamente, e descobriram ao final que eu não tinha culpa nenhuma naquele evento, que a questão era estrutural da cadeia. Vou encerrar. Então, Ministro, quando o senhor declara que vai propor o veto à saidinha por medo de revolta, o senhor não está de certa forma admitindo a incapacidade do sistema carcerário de controlar revoltas de presos? Não seria admitir uma incapacidade? Muito obrigado. Presidente, peço que o Ministro responda à questão das armas. Se o senhor puder se ater só à questão das armas, por gentileza. Sim, sim, é bastante relevante, tanto que os seguranças"
-],
-"n_windows": 13
-},
-{
 "id": "modelo-B-150",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Gilberto Martins",
 "cargo": "Gerente de Assuntos Técnicos da Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea)",
@@ -4570,6 +5276,9 @@
 },
 {
 "id": "modelo-B-151",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Carlos Frederico Otoni Garcia",
 "cargo": "Coordenador da Defesa Civil de Minas Gerais",
@@ -4583,6 +5292,9 @@
 },
 {
 "id": "modelo-B-152",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Jader Barbalho Filho",
 "cargo": "Ministro das Cidades",
@@ -4596,6 +5308,9 @@
 },
 {
 "id": "modelo-B-153",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Nilma Lino",
 "cargo": "Ex-ministra da Mulher, Família e Direitos Humanos",
@@ -4609,6 +5324,9 @@
 },
 {
 "id": "modelo-B-154",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Pedro Estevam",
 "cargo": "Professor de Direito no mestrado e doutorado da PUC-SP",
@@ -4622,6 +5340,9 @@
 },
 {
 "id": "modelo-B-155",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Idilvan Alencar",
 "cargo": "Deputado (PDT-CE)",
@@ -4635,6 +5356,9 @@
 },
 {
 "id": "modelo-B-156",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luciana Gatti",
 "cargo": "Coordenadora do Laboratório de Gases do Efeito Estufa do Instituto Nacional de Pesquisas Espaciais (LaGEE/INPE)",
@@ -4648,6 +5372,9 @@
 },
 {
 "id": "modelo-B-157",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Diogo Alves",
 "cargo": "Oficial nacional de Controle de Tabaco e Impostos Saudáveis da Organização Mundial da Saúde (OMS) no Brasil",
@@ -4661,6 +5388,9 @@
 },
 {
 "id": "modelo-B-158",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Diego Alves",
 "cargo": "Presidente do Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda)",
@@ -4674,6 +5404,9 @@
 },
 {
 "id": "modelo-B-159",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ) e presidente da Comissão de Legislação Participativa",
@@ -4687,6 +5420,9 @@
 },
 {
 "id": "modelo-B-160",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Paulo Teixeira",
 "cargo": "Deputado (PT-SP)",
@@ -4700,6 +5436,9 @@
 },
 {
 "id": "modelo-B-161",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Alice Portugal",
 "cargo": "Deputada (PCdoB-BA)",
@@ -4712,20 +5451,10 @@
 "n_windows": 28
 },
 {
-"id": "modelo-B-162",
-"model": "modelo-B",
-"participant": "Luizianne Lins",
-"cargo": "Deputada e presidente da Comissão de Direitos Humanos",
-"opinion": "Ela anunciou a realização de uma reunião deliberativa no próximo dia 16 de agosto para avançar nas ações sobre refugiados.",
-"windows": [
-"começou a Ordem do Dia no Plenário da Câmara vou encerrar a reunião. Mas antes de encerrá-la, convoco reunião deliberativa que ocorrerá no próximo dia 16 de agosto — se assim os membros da Comissão permitirem —, às 14 horas, no Plenário 9 desta Casa. Nada mais havendo a tratar, eu gostaria de reiterar o agradecimento a todos e todas pela presença, bem como pelas valiosas contribuições que foram dadas aqui. Declaro encerrada a presente reunião. Muito obrigada.",
-"Declaro aberta esta audiência pública da Comissão de Direitos Humanos, Minorias e Igualdade Racial, destinada a debater a situação dos refugiados no Brasil. Este evento decorre da aprovação de requerimento de nossa autoria, o Requerimento nº 107, de 2023. Esta audiência pública está sendo transmitida pela páginawww.camara.leg.br/cdhm. Nesta reunião, teremos participações presenciais e por teleconferência. O registro de presença dos Parlamentares se dará de forma presencial no posto de registro biométrico deste plenário. Os Parlamentares que fizerem uso da palavra por teleconferência terão sua presença registrada. Esclareço que o tempo concedido aos expositores será de 7 minutos. Após a fala",
-"e sugestões com base no que foi dito aqui. Tudo aqui está sendo taquigrafado e gravado, e normalmente os encaminhamentos são retirados a partir das falas. Para facilitarmos os próximos passos e ficarmos em contato, eu vou lhes enviar este questionário previamente estruturado, para que possamos ter uma dimensão do que queremos ouvir de cada um, sobre o que os senhores propõem a partir de suas vivências e de sua atuação na área de refugiados no Brasil. Passo a palavra à Sra. Fernanda Rosas, que aqui representa o Ministro Márcio França, do Ministério de Portos e Aeroportos. Obrigada, Fernanda, pela"
-],
-"n_windows": 19
-},
-{
 "id": "modelo-B-163",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Professora Luciene Cavalcante",
 "cargo": "Deputada (Psol-SP)",
@@ -4739,6 +5468,9 @@
 },
 {
 "id": "modelo-B-164",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Fábio de Araújo",
 "cargo": "Secretário Nacional de Paradesporto",
@@ -4752,6 +5484,9 @@
 },
 {
 "id": "modelo-B-165",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Márcia Cruz",
 "cargo": "Coordenadora do Centro de Paramiloidose da Universidade Federal do Rio de Janeiro",
@@ -4765,6 +5500,9 @@
 },
 {
 "id": "modelo-B-166",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Monize Marques",
 "cargo": "Juíza, coordenadora da Central Judicial do Idoso no Distrito Federal",
@@ -4778,6 +5516,9 @@
 },
 {
 "id": "modelo-B-167",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Helena Bergallo",
 "cargo": "Professora da Universidade do Estado do Rio de Janeiro (UERJ)",
@@ -4791,6 +5532,9 @@
 },
 {
 "id": "modelo-B-168",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Erika Hilton",
 "cargo": "Deputada (Psol-SP)",
@@ -4804,6 +5548,9 @@
 },
 {
 "id": "modelo-B-169",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Glauber Braga",
 "cargo": "Deputado (Psol-RJ)",
@@ -4817,6 +5564,9 @@
 },
 {
 "id": "modelo-B-170",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luisa Canziani",
 "cargo": "Deputada (PSD-PR)",
@@ -4830,6 +5580,9 @@
 },
 {
 "id": "modelo-B-171",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Alexandre da Silva",
 "cargo": "Atual titular da Secretaria Nacional da Pessoa Idosa",
@@ -4842,20 +5595,10 @@
 "n_windows": 34
 },
 {
-"id": "modelo-B-172",
-"model": "modelo-B",
-"participant": "Delegado Paulo Bilynskyj",
-"cargo": "Deputado (PL-SP)",
-"opinion": "Ele argumenta que a exigência de habitualidade por calibres desestimula a liberdade de aquisição de armas.",
-"windows": [
-"grande investimento e que possuem armas de fogo de diversos calibres tenham que participar de inúmeras competições durante o ano simplesmente para manter os seus armamentos. Essa exigência foi criada, obviamente, para desestimular a liberdade de aquisição de calibres. Isso é algo desnecessário. Vamos alterar esse texto para \"calibres permitidos e restritos\". Assim já se dá uma sinalização muito positiva de compreensão da situação do tiro esportivo no Brasil. Por último em relação ao decreto, Ministro, a questão do calibre 9 milímetros. Se V.Exa. não dispõe de nenhum segurança que utiliza um calibre menor que o 9 milímetros, como o",
-"abstrato. O senhor está numa Pasta do mundo real. Os seus auxiliares policiais viveram, em algum ponto da carreira, o mundo real e é nele que temos que basear as nossas decisões. Então, o primeiro ponto que eu questiono é sobre essa distância de 1 quilômetro, que é descabida e vai simplesmente forçar o fechamento dos estabelecimentos, causando um prejuízo gigantesco e a impossibilidade de mais de 1 milhão de brasileiros continuarem a prática do tiro esportivo. Um segundo ponto do decreto, Sr. Ministro, é a famosa habitualidade por calibres. Essa outra exigência faz com que pessoas que fizeram um",
-"uma fuga. Fui processado administrativamente, e descobriram ao final que eu não tinha culpa nenhuma naquele evento, que a questão era estrutural da cadeia. Vou encerrar. Então, Ministro, quando o senhor declara que vai propor o veto à saidinha por medo de revolta, o senhor não está de certa forma admitindo a incapacidade do sistema carcerário de controlar revoltas de presos? Não seria admitir uma incapacidade? Muito obrigado. Presidente, peço que o Ministro responda à questão das armas. Se o senhor puder se ater só à questão das armas, por gentileza. Sim, sim, é bastante relevante, tanto que os seguranças"
-],
-"n_windows": 13
-},
-{
 "id": "modelo-B-173",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Carlos Frederico Otoni Garcia",
 "cargo": "Coordenador da Defesa Civil de Minas Gerais",
@@ -4869,6 +5612,9 @@
 },
 {
 "id": "modelo-B-174",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "David Ágape",
 "cargo": "Jornalista freelancer",
@@ -4882,6 +5628,9 @@
 },
 {
 "id": "modelo-B-175",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bebeto",
 "cargo": "Deputado (PP-RJ)",
@@ -4895,6 +5644,9 @@
 },
 {
 "id": "modelo-B-176",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Talíria Petrone",
 "cargo": "Deputada (Psol-RJ)",
@@ -4908,6 +5660,9 @@
 },
 {
 "id": "modelo-B-177",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luisa Canziani",
 "cargo": "Deputada (PSD-PR)",
@@ -4921,6 +5676,9 @@
 },
 {
 "id": "modelo-B-178",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Erika Kokay",
 "cargo": "Deputada (PT-DF)",
@@ -4934,6 +5692,9 @@
 },
 {
 "id": "modelo-B-179",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Rejane Dias",
 "cargo": "Deputada (PT-PI)",
@@ -4947,6 +5708,9 @@
 },
 {
 "id": "modelo-B-180",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Carina Mineia dos Santos Trindade",
 "cargo": "Representante da Federação Nacional dos Sindicatos dos Motoristas de Aplicativos",
@@ -4959,33 +5723,10 @@
 "n_windows": 16
 },
 {
-"id": "modelo-B-181",
-"model": "modelo-B",
-"participant": "Roberto Muniz",
-"cargo": "Representante do Fórum Nacional das Entidades Representativas dos Servidores das Carreiras de Ciência e Tecnologia",
-"opinion": "O governo, segundo Muniz, não busca soluções criativas, ao invés de aumentar a produtividade com a troca de caminhões velhos por novos.",
-"windows": [
-"paliativa, até que novamente esses caminhões se transformem em sucata. Novamente vamos fazer isso. Você deixa de investir em soluções criativas para o problema, você retira dinheiro de uma área que é fundamental, para fazer uma solução meramente paliativa. Ela não é criativa. Ela não traz o que está nocaputda medida provisória. Ela quer aumentar a produtividade. Como quer aumentar a produtividade? Pega o que é velho e transforma em sucata, e coloca o que é novo no lugar. Onde está a criatividade disto? Isto está representando uma política que nós vínhamos combatendo há muito tempo. O Brasil precisa investir",
-"prazo, a produtividade das nossas áreas de transporte? Nós estamos investindo em caminhões que são mais econômicos? Nós estamos investindo em caminhões que têm uma tecnologia mais atualizada, de futuro, que inclusive pode ser desenvolvida aqui no Brasil? Nós temos massa crítica para fazer isso. Nós temos pesquisadores para fazer isso. Os pesquisadores estão nas universidades, que foram aqui representadas pela ANDIFES. Existem laboratórios no País que podem fazer isso. Para nós, o maior equívoco está aí, mas não é só esse: o Governo toma atitudes de forma impensada, e, mais ainda, está no DNA disso uma forma de gerir",
-"Substituir caminhão velho por caminhão novo não traz maior produtividade, a não ser momentaneamente. O dinheiro que sai da cadeia produtiva de gás e petróleo não só é investido para extrair petróleo, o que, como bem falou o Peregrino, é fundamental; ele também interfere em toda a cadeia produtiva. Vamos lembrar que toda a cadeia produtiva envolve, por exemplo, a questão da indústria plástica, a questão da indústria química. Então, ao se retirar isso, nós estamos debilitando essas áreas, em favorecimento simplesmente da troca de caminhão velho por caminhão novo. Onde está a novidade para aumentar, efetivamente e a longo"
-],
-"n_windows": 17
-},
-{
-"id": "modelo-B-182",
-"model": "modelo-B",
-"participant": "Paulo Illes",
-"cargo": "Coordenador-geral de Política Migratória do Ministério da Justiça",
-"opinion": "Paulo Illes reafirma o compromisso com a regularização migratória, incluindo a revisão da Portaria 678/2022.",
-"windows": [
-"a essa portaria da CPLP. Então esse é o desafio, ao mesmo tempo em que vamos construindo a política migratória, vamos tentando resolver algumas questões. E, por último, queria mencionar a Portaria Interministerial nº 678, de 2022. Nós já trabalhamos essa portaria, inclusive a SENAJUS já respondeu à DPU e estamos no processo para a revogação dessa portaria. E eu queria reafirmar o compromisso do Departamento de Migrações com a regularização migratória. Assim como nós fizemos a portaria da CPLP e dos haitianos, também estudamos outras formas de regularização migratória por interesse do Estado brasileiro, como a lei garante. Era",
-"lusófilos já solicitaram residência pela portaria da CPLP. Gostaria de destacar ainda que, no mês de janeiro deste ano, o Ministro Flávio Dino criou um grupo de trabalho responsável por elaborar a nova política migratória brasileira. Essa nova política se respalda no art. 120 da Lei nº 13.445, de 2017, que justamente trata da questão federativa. O art. 120 fala de uma gestão e de uma governança compartilhada das migrações envolvendo Estados, Municípios e sociedade civil. Esses grupos de trabalho foram divididos em cinco eixos: o primeiro eixo tratou justamente dos temas da regularização migratória; o segundo eixo tratou da",
-"Na questão dos haitianos, tínhamos mais de 5 mil processos judicializados. A Portaria Interministerial nº 38/2023 muda totalmente a realidade, hoje nós temos mais de 30 mil pedidos de reunificação familiar de migrantes haitianos. Ao mesmo tempo em que nos deparamos com a construção da política migratória, com a equipe que temos disponível para trabalhar, que é a mesma equipe que cuidava dos processos burocráticos, nós temos o desafio de ir também devolvendo para a população direitos, como, por exemplo, as portarias que eu mencionei aqui da CPLP. Hoje nós já temos 330 imigrantes dos países lusófonos que já aderiram"
-],
-"n_windows": 17
-},
-{
 "id": "modelo-B-183",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "José Bartolomeu",
 "cargo": "Presidente da ViaBahia",
@@ -4999,6 +5740,9 @@
 },
 {
 "id": "modelo-B-184",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Rejane Dias",
 "cargo": "Deputada (PT-PI)",
@@ -5012,6 +5756,9 @@
 },
 {
 "id": "modelo-B-185",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Julia Salvagni",
 "cargo": "Representante do Grupo Aconchego, do Distrito Federal",
@@ -5025,6 +5772,9 @@
 },
 {
 "id": "modelo-B-186",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Dandara",
 "cargo": "Deputada (PT-MG)",
@@ -5038,6 +5788,9 @@
 },
 {
 "id": "modelo-B-187",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Hugo Leal",
 "cargo": "Deputado (PSD-RJ)",
@@ -5051,6 +5804,9 @@
 },
 {
 "id": "modelo-B-188",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Arthur de Almeida Medeiros",
 "cargo": "Coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde",
@@ -5064,6 +5820,9 @@
 },
 {
 "id": "modelo-B-189",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Luizianne Lins",
 "cargo": "Deputada (PT-CE)",
@@ -5077,6 +5836,9 @@
 },
 {
 "id": "modelo-B-190",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Aristides Cavalcante Neto",
 "cargo": "Chefe adjunto do Departamento de Tecnologia da Informação do Banco Central",
@@ -5090,6 +5852,9 @@
 },
 {
 "id": "modelo-B-191",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Patrícia Moller",
 "cargo": "Neurologista pediátrica",
@@ -5103,6 +5868,9 @@
 },
 {
 "id": "modelo-B-192",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Rodrigo Saraiva",
 "cargo": "Professor da Fundação Escola Superior de Advocacia do Ceará e da Pós-Graduação da Universidade de Fortaleza",
@@ -5115,20 +5883,10 @@
 "n_windows": 30
 },
 {
-"id": "modelo-B-193",
-"model": "modelo-B",
-"participant": "Caio Vianna",
-"cargo": "Deputado (PSD-RJ)",
-"opinion": "Vianna destaca a redução de custo como um benefício significativo, exemplificando com a iniciativa do Banco Central via Drex, que pode ser utilizada por instituições governamentais.",
-"windows": [
-"mas também nos coloca alguns desafios, como a privacidade. Como vocês estão trabalhando com outras instituições para garantir a ampla adoção do Drex? A rede principal, com o Drex, deve ser utilizada por todas as instituições que quiserem fazer essa comunicação com o Banco Central ou vocês vão criar processos de interoperabilidade com outras redes, para que o Drex também consiga ser transacionado em outras redes? Falando num português claro, através dessa nova tecnologia, haveria a capacidade de se fazer a transferência de um veículo, por meio do Drex, da rede, e ficaria garantido que a titularidade e a propriedade",
-"para o povo brasileiro poder ter essa participação no sistema financeiro. Com essa iniciativa, obviamente em conjunto com outras instituições governamentais, vai se dar a possibilidade e a capacidade de adoção em massa necessária para desenvolver qualquer que seja o sistema, assim como foi com a Internet, assim como está sendo com a rede de registro distribuído. É necessária essa adoção, é necessária a simplificação para o usuário final. Então, quero parabenizar realmente essa grande iniciativa do Banco Central. Sr. Aristides, na sua apresentação, o senhor falou sobre a privacidade. Eu acho que esse é um tema muito sensível, principalmente",
-"nas suas máquinas? Isso obviamente garantiria uma maior descentralização e segurança dessas redes. Portanto, a pergunta é se existe essa previsão. Com relação aoCompliance by Design, você pode nos explicar um pouco qual foi o intuito da sua criação e como ele está sendo utilizado já hoje em dia? Perfeito. Obrigado, Diego. Eu queria agora perguntar para o Sr. Aristides Neto, que é o nosso representante aqui do Banco Central. Já agradeço a sua presença mais uma vez e parabenizo o Banco Central pela iniciativa com o drex, pela sua capacidade de inovar. Eu acho que é uma oportunidade imensa"
-],
-"n_windows": 35
-},
-{
 "id": "modelo-B-194",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Daniela Cerqueira",
 "cargo": "Representante do Ministério da Saúde",
@@ -5142,6 +5900,9 @@
 },
 {
 "id": "modelo-B-195",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Lara Simielli",
 "cargo": "Professora da Fundação Getúlio Vargas e uma das autoras do estudo",
@@ -5155,6 +5916,9 @@
 },
 {
 "id": "modelo-B-196",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Patrícia Moller",
 "cargo": "Neurologista pediátrica",
@@ -5168,6 +5932,9 @@
 },
 {
 "id": "modelo-B-197",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Idilvan Alencar",
 "cargo": "Deputado (PDT-CE)",
@@ -5181,6 +5948,9 @@
 },
 {
 "id": "modelo-B-198",
+"sets": [
+"conjunto-3"
+],
 "model": "modelo-B",
 "participant": "Filipe Martins",
 "cargo": "Deputado (PL-TO)",
@@ -5194,6 +5964,9 @@
 },
 {
 "id": "modelo-B-199",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Assimakis Komminos",
 "cargo": "Advogado especialista em mercados e serviços digitais do escritório de advocacia White & Case",
@@ -5207,6 +5980,9 @@
 },
 {
 "id": "modelo-B-200",
+"sets": [
+"conjunto-4"
+],
 "model": "modelo-B",
 "participant": "Bruno Abreu",
 "cargo": "Diretor do Sindicato da Indústria de Produtos Farmacêuticos",
