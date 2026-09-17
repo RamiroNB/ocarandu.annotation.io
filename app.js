@@ -56,8 +56,14 @@
     $("participant").textContent = it.participant; $("cargo").textContent = it.cargo ? `· ${it.cargo}` : "";
     const vocab = $("highlight").checked ? new Set(words(it.opinion)) : null;
     $("opinion").innerHTML = highlight(it.opinion, vocab);
-    $("nwin").textContent = `(${it.windows.length} trechos mais parecidos, de ${it.n_windows} janelas da fala dessa pessoa)`;
-    $("windows").innerHTML = it.windows.map((w, i) => `<div class="win"><div class="k">trecho ${i + 1}</div>${highlight(w, vocab)}</div>`).join("");
+    const SHOW = (DATA.windows_shown || 3);
+    $("nwin").textContent = `(os ${Math.min(SHOW, it.windows.length)} mais parecidos, de ${it.n_windows} janelas da fala dessa pessoa)`;
+    const renderWins = (n) => {
+      $("windows").innerHTML = it.windows.slice(0, n).map((w, i) => `<div class="win"><div class="k">trecho ${i + 1}</div>${highlight(w, vocab)}</div>`).join("") +
+        (n < it.windows.length ? `<button id="btn-more" class="ghost small">ver mais ${it.windows.length - n} trechos</button>` : "");
+      const b = $("btn-more"); if (b) b.onclick = () => renderWins(it.windows.length);
+    };
+    renderWins(SHOW);
     const a = state.answers[it.id] || {};
     document.querySelectorAll(".ans").forEach(b => b.classList.toggle("selected", b.dataset.support === a.support));
     $("form-issue").checked = !!a.form_issue; $("comment").value = a.comment || "";

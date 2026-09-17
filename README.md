@@ -13,7 +13,8 @@ partir das falas dele. Cada item da página mostra:
 
 - o nome e o cargo do participante;
 - uma opinião que o sistema atribuiu a ele;
-- os três trechos da fala dele que mais se parecem com a opinião.
+- os trechos da fala dele que mais se parecem com a opinião (três de início;
+  "ver mais trechos" mostra outros).
 
 A pergunta é sempre a mesma: **a opinião é sustentada por esses trechos?**
 
@@ -32,8 +33,9 @@ Quem anota não sabe de qual versão veio cada opinião, e isso é de propósito
 ## Como funciona
 
 1. Escreva seu nome e escolha o seu conjunto. São quatro conjuntos de 100
-   itens, um por pessoa do grupo. Dez itens aparecem em todos os conjuntos,
-   para medirmos a concordância entre anotadores.
+   itens, um por pessoa do grupo. Vinte itens aparecem em todos os conjuntos,
+   para medirmos a concordância entre anotadores, e alguns itens vêm de outros
+   sistemas, para comparação.
 2. Responda item a item. Teclas 1, 2 e 3 escolhem a resposta; F marca problema
    de forma; as setas navegam.
 3. O progresso fica salvo no navegador. Dá para fechar e continuar depois, no
